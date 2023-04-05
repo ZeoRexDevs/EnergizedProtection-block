@@ -18,10 +18,10 @@ curl -fsSLo htrc.7z $TRC
 curl -fsSLo 280blocker_domain_ag.txt $TWOEIGHTY
 
 # Decompress 7z and Copy as Txt File
-7z x hpub.7z && cp Hosts.pub airelle-pub.txt
-7z x hrsk.7z && cp Hosts.rsk airelle-rsk.txt
-7z x hsex.7z && cp Hosts.sex airelle-sex.txt
-7z x htrc.7z && cp Hosts.trc airelle-trc.txt
+7z x -y hpub.7z && cp Hosts.pub airelle-pub.txt
+7z x -y hrsk.7z && cp Hosts.rsk airelle-rsk.txt
+7z x -y hsex.7z && cp Hosts.sex airelle-sex.txt
+7z x -y htrc.7z && cp Hosts.trc airelle-trc.txt
 
 # Remove Temp Files
 rm -rf *.pub hpub.7z
