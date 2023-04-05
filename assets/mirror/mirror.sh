@@ -3,12 +3,12 @@
 # Energized Protection - Mirror
 # https://energized.pro
 
-curl -fsSLo 280blocker_domain_ag.txt https://github.com/EnergizedProtection/mirror/raw/master/active/filter/280blocker.txt
+curl -fsSL https://github.com/EnergizedProtection/mirror/raw/master/active/filter/280blocker.txt -o 280blocker_domain_ag.txt
 
-curl -fsSL https://github.com/EnergizedProtection/mirror/raw/master/active/filter/airelle-pub.txt
-curl -fsSL https://github.com/EnergizedProtection/mirror/raw/master/active/filter/airelle-rsk.txt
-curl -fsSL https://github.com/EnergizedProtection/mirror/raw/master/active/filter/airelle-sex.txt
-curl -fsSL https://github.com/EnergizedProtection/mirror/raw/master/active/filter/airelle-trc.txt
+curl -fsSL https://github.com/EnergizedProtection/mirror/raw/master/active/filter/airelle-pub.txt -O
+curl -fsSL https://github.com/EnergizedProtection/mirror/raw/master/active/filter/airelle-rsk.txt -O
+curl -fsSL https://github.com/EnergizedProtection/mirror/raw/master/active/filter/airelle-sex.txt -O
+curl -fsSL https://github.com/EnergizedProtection/mirror/raw/master/active/filter/airelle-trc.txt -O
 
 # Remove first 6 Lines from RSK
 sed -i '1,6d' airelle-pub.txt
