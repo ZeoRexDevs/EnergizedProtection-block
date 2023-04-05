@@ -15,6 +15,7 @@ sed -i '1,6d' airelle-pub.txt
 sed -i '1,6d' airelle-rsk.txt
 sed -i '1,6d' airelle-sex.txt
 sed -i '1,6d' airelle-trc.txt
+sed -i '/^#\s/d' airelle-*.txt
 
 echo "[+] Saving UT1"
 UT1Addr=ftp://ftp.ut-capitole.fr/pub/reseau/cache/squidguard_contrib
