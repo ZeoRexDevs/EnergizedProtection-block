@@ -60,7 +60,7 @@
 </div>
 
 <div align="center">
-  <sub>A Trio Project with ❤ from Bangladesh, India & Zanzibar.
+  <sub>A Trio Project with ❤ from Bangladesh, India & Zanzibar.</sub>
 </div>
 
 ## Features
@@ -385,7 +385,7 @@ The content of this project itself is licensed under the [MIT](https://github.co
 
 <div align="center">
   <h2>Let's make an annoyance free better open internet, altogether!</h2>
-  <sub>A project by <a href="https://nayemador.com" target="_blank">Ador</a> with ❤<pub>
+  <sub>A project by <a href="https://nayemador.com" target="_blank">Ador</a> with ❤</sub>
 </div>
 
 

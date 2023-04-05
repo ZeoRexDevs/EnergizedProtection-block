@@ -102,5 +102,5 @@ Write us a lil bit more about your issue or query. You can attach any screen sho
 
 <div align="center">
   <h2>Thank you for making Energized Protection great, with your kind help!</h2>
-  <sub>A project by <a href="https://nayemador.com" target="_blank">Ador</a> with ❤<pub>
+  <sub>A project by <a href="https://nayemador.com" target="_blank">Ador</a> with ❤</sub>
 </div>

@@ -63,6 +63,7 @@ avinash="@AvinashReddy3108 - Developer"
 badmojr="@badmojr - Maintainer"
 packName="Energized IP List Extension"
 packDesc="Malicious IP Protection."
+filterAuthor="Rokib Hasan Sagar @rokibhasansagar"
 buildVersion=$(date +%y.%m.%j)
 releaseVersion=$(date +%j)
 packCode="EX1P5-P"
@@ -90,7 +91,7 @@ rm -f $temp
 
 #-------------------------------------------------------------------------------#
 #-------------------------------- S O U R C E S --------------------------------#
-#-------------------------------------------------------------------------------# 
+#-------------------------------------------------------------------------------#
 { wget -qO- https://malc0de.com/bl/IP_Blacklist.txt; \
 wget -qO- https://pgl.yoyo.org/adservers/iplist.php?ipformat=plain&showintro=1&mimetype=plaintext; \
 wget -qO- https://blocklist.greensnow.co/greensnow.txt; \
@@ -161,6 +162,7 @@ echo "$headerLogo
 # $dividerTiny
 # Title: $packName
 # Description: $packDesc
+# Author: $filterAuthor
 # Format: ip list
 # Version: $buildVersion
 # Release: $releaseVersion
@@ -192,7 +194,7 @@ mv -f $atemp $ips
 #-------------------------------------------------------------------------------#
 
 # Remove Stales
-rm -f "$temp" "$atemp" "$file" "$whitelist" "$footer" 
+rm -f "$temp" "$atemp" "$file" "$whitelist" "$footer"
 
 #-------------------------------------------------------------------------------#
 #---------------------------------- D O N E  -----------------------------------#

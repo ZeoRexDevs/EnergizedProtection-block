@@ -78,13 +78,14 @@ avinash="@AvinashReddy3108 - Developer"
 badmojr="@badmojr - Maintainer"
 packName="Energized Porn Lite Extension"
 packDesc="Lite Extension Porn Pack."
+filterAuthor="Rokib Hasan Sagar @rokibhasansagar"
 buildVersion=$(date +%y.%m.%j)
 releaseVersion=$(date +%j)
 packCode="EXP0R9-P"
 license="MIT, https://energized.pro/license"
 raw="https://block.energized.pro/extensions/$pack/formats"
 updateDate=$(date +"%a, %d %b %y %H:%M:%S %Z")
-expiry="1 day (update frequency)"
+expiry="7 days (update frequency)"
 echo -n "# $dividerTiny\n# E N E R G I Z E D  E N D S\n# $dividerTiny\n#\n# - - - -  S T A Y  E N E R G I Z E D  - - - -" >> $footer
 echo -n "! $dividerTiny\n! E N E R G I Z E D  E N D S\n! $dividerTiny\n!\n! - - - -  S T A Y  E N E R G I Z E D  - - - -" >> $footerAB
 echo -n "; $dividerTiny\n; E N E R G I Z E D  E N D S\n; $dividerTiny\n;\n; - - - -  S T A Y  E N E R G I Z E D  - - - -" >> $footerRPZ
@@ -107,7 +108,7 @@ rm -f $temp
 
 #-------------------------------------------------------------------------------#
 #-------------------------------- S O U R C E S --------------------------------#
-#-------------------------------------------------------------------------------# 
+#-------------------------------------------------------------------------------#
 { cat $oFileDir/domains.txt; \
 cat $fileDir/ador-energized-porn.txt; \
 cat $fileDir/clefspeare-pornhosts.txt; \
@@ -181,6 +182,7 @@ echo "$headerLogo
 # $dividerTiny
 # Title: $packName
 # Description: $packDesc
+# Author: $filterAuthor
 # Format: hosts
 # Version: $buildVersion
 # Release: $releaseVersion
@@ -222,6 +224,7 @@ echo "$headerLogo
 # $dividerTiny
 # Title: $packName
 # Description: $packDesc
+# Author: $filterAuthor
 # Format: hosts
 # Version: $buildVersion
 # Release: $releaseVersion
@@ -263,6 +266,7 @@ echo "$headerLogo
 # $dividerTiny
 # Title: $packName
 # Description: $packDesc
+# Author: $filterAuthor
 # Format: hosts IPV6
 # Version: $buildVersion
 # Release: $releaseVersion
@@ -304,6 +308,7 @@ echo "$headerLogo
 # $dividerTiny
 # Title: $packName
 # Description: $packDesc
+# Author: $filterAuthor
 # Format: domain list
 # Version: $buildVersion
 # Release: $releaseVersion
@@ -343,6 +348,7 @@ echo "$headerLogoAB
 ! $dividerTiny
 ! Title: $packName
 ! Description: $packDesc
+! Author: $filterAuthor
 ! Format: adblock
 ! Version: $buildVersion
 ! Release: $releaseVersion
@@ -383,6 +389,7 @@ echo "$headerLogo
 # $dividerTiny
 # Title: $packName
 # Description: $packDesc
+# Author: $filterAuthor
 # Format: dnsmasq
 # Version: $buildVersion
 # Release: $releaseVersion
@@ -422,6 +429,7 @@ echo "$headerLogo
 # $dividerTiny
 # Title: $packName
 # Description: $packDesc
+# Author: $filterAuthor
 # Format: dnsmasq ipv6
 # Version: $buildVersion
 # Release: $releaseVersion
@@ -461,6 +469,7 @@ echo "$headerLogo
 # $dividerTiny
 # Title: $packName
 # Description: $packDesc
+# Author: $filterAuthor
 # Format: unbound
 # Version: $buildVersion
 # Release: $releaseVersion
@@ -500,6 +509,7 @@ echo "$headerLogoRPZ
 ; $dividerTiny
 ; Title: $packName
 ; Description: $packDesc
+; Author: $filterAuthor
 ; Format: rpz
 ; Version: $buildVersion
 ; Release: $releaseVersion
@@ -541,6 +551,7 @@ echo "$headerLogo
 # $dividerTiny
 # Title: $packName
 # Description: $packDesc
+# Author: $filterAuthor
 # Format: one-line
 # Version: $buildVersion
 # Release: $releaseVersion

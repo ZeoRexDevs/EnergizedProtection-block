@@ -1,40 +1,34 @@
 #!/bin/bash
+
 # Energized Protection - Mirror
 # https://energized.pro
 
-PUB=http://rlwpx.free.fr/WPFF/hpub.7z
-RSK=http://rlwpx.free.fr/WPFF/hrsk.7z
-SEX=http://rlwpx.free.fr/WPFF/hsex.7z
-TRC=http://rlwpx.free.fr/WPFF/htrc.7z
+echo "[+] Saving Airelles"
+AirellesAddr=http://rlwpx.free.fr/WPFF
+PUB=${AirellesAddr}/hpub.7z
+RSK=${AirellesAddr}/hrsk.7z
+SEX=${AirellesAddr}/hsex.7z
+TRC=${AirellesAddr}/htrc.7z
 TWOEIGHTY=https://filter.futa.gg/280blocker/280blocker_domain_ag.txt
 
-echo "[+] Saving Airelles"
-curl -o hpub.7z $PUB
-curl -o hrsk.7z $RSK
-curl -o hsex.7z $SEX
-curl -o htrc.7z $TRC
-curl -o 280blocker_domain_ag.txt $TWOEIGHTY
+curl -fsSLo hpub.7z $PUB
+curl -fsSLo hrsk.7z $RSK
+curl -fsSLo hsex.7z $SEX
+curl -fsSLo htrc.7z $TRC
+curl -fsSLo 280blocker_domain_ag.txt $TWOEIGHTY
 
-# Decompress 7z
-7z x hpub.7z
-7z x hrsk.7z
-7z x hsex.7z
-7z x htrc.7z
+# Decompress 7z and Copy as Txt File
+7z x hpub.7z && cp Hosts.pub airelle-pub.txt
+7z x hrsk.7z && cp Hosts.rsk airelle-rsk.txt
+7z x hsex.7z && cp Hosts.sex airelle-sex.txt
+7z x htrc.7z && cp Hosts.trc airelle-trc.txt
 
-# Copy as Txt File
-cp Hosts.pub airelle-pub.txt
-cp Hosts.rsk airelle-rsk.txt
-cp Hosts.sex airelle-sex.txt
-cp Hosts.trc airelle-trc.txt
-# Remove Temp RSK File
-rm -rf *.pub
-rm -rf *.rsk
-rm -rf *.sex
-rm -rf *.trc
-rm -f hpub.7z
-rm -f hrsk.7z
-rm -f hsex.7z
-rm -f htrc.7z
+# Remove Temp Files
+rm -rf *.pub hpub.7z
+rm -rf *.rsk hrsk.7z
+rm -rf *.sex hsex.7z
+rm -rf *.trc htrc.7z
+
 # Remove first 6 Lines from RSK
 sed -i '1,6d' airelle-pub.txt
 sed -i '1,6d' airelle-rsk.txt
@@ -42,51 +36,39 @@ sed -i '1,6d' airelle-sex.txt
 sed -i '1,6d' airelle-trc.txt
 
 echo "[+] Saving UT1"
-ut1Adult=ftp://ftp.ut-capitole.fr/pub/reseau/cache/squidguard_contrib/adult.tar.gz
-ut1Cryptojacking=ftp://ftp.ut-capitole.fr/pub/reseau/cache/squidguard_contrib/cryptojacking.tar.gz
-ut1Gambling=ftp://ftp.ut-capitole.fr/pub/reseau/cache/squidguard_contrib/gambling.tar.gz
-ut1Phishing=ftp://ftp.ut-capitole.fr/pub/reseau/cache/squidguard_contrib/phishing.tar.gz
-ut1Publicite=ftp://ftp.ut-capitole.fr/pub/reseau/cache/squidguard_contrib/publicite.tar.gz
-ut1Social=ftp://ftp.ut-capitole.fr/pub/reseau/cache/squidguard_contrib/social_networks.tar.gz
-wget $ut1Adult
-wget $ut1Cryptojacking
-wget $ut1Gambling
-wget $ut1Phishing
-wget $ut1Publicite
-wget $ut1Social
+UT1Addr=ftp://ftp.ut-capitole.fr/pub/reseau/cache/squidguard_contrib
+ut1Adult=${UT1Addr}/adult.tar.gz
+ut1Cryptojacking=${UT1Addr}/cryptojacking.tar.gz
+ut1Gambling=${UT1Addr}/gambling.tar.gz
+ut1Phishing=${UT1Addr}/phishing.tar.gz
+ut1Publicite=${UT1Addr}/publicite.tar.gz
+ut1Social=${UT1Addr}/social_networks.tar.gz
 
+wget -q --show-progress $ut1Adult
+wget -q --show-progress $ut1Cryptojacking
+wget -q --show-progress $ut1Gambling
+wget -q --show-progress $ut1Phishing
+wget -q --show-progress $ut1Publicite
+wget -q --show-progress $ut1Social
 
 # Untar tar.gz
 tar -zxvf adult.tar.gz "adult/domains"
-cd adult/
-mv -f domains ../ut1-adult.txt
-cd ../
+mv -f adult/domains ut1-adult.txt
 rm -r adult/
 tar -zxvf cryptojacking.tar.gz "cryptojacking/domains"
-cd cryptojacking/
-mv -f domains ../ut1-cryptojacking.txt
-cd ../
+mv -f cryptojacking/domains ut1-cryptojacking.txt
 rm -r cryptojacking
 tar -zxvf gambling.tar.gz "gambling/domains"
-cd gambling/
-mv -f domains ../ut1-gambling.txt
-cd ../
+mv -f gambling/domains ut1-gambling.txt
 rm -r gambling
 tar -zxvf phishing.tar.gz "phishing/domains"
-cd phishing/
-mv -f domains ../ut1-phishing.txt
-cd ../
+mv -f phishing/domains ut1-phishing.txt
 rm -r phishing
 tar -zxvf publicite.tar.gz "publicite/domains"
-cd publicite
-mv -f domains ../ut1-publicite.txt
-cd ../
+mv -f publicite/domains ut1-publicite.txt
 rm -r publicite
 tar -zxvf social_networks.tar.gz "social_networks/domains"
-cd social_networks/
-mv -f domains ../ut1-social-networks.txt
-cd ../
+mv -f social_networks/domains ut1-social-networks.txt
 rm -r social_networks
 
 rm -f *.tar.gz
-
