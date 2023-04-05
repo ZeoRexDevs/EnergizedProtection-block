@@ -3,31 +3,12 @@
 # Energized Protection - Mirror
 # https://energized.pro
 
-echo "[+] Saving Airelles"
-AirellesAddr=http://rlwpx.free.fr/WPFF
-PUB=${AirellesAddr}/hpub.7z
-RSK=${AirellesAddr}/hrsk.7z
-SEX=${AirellesAddr}/hsex.7z
-TRC=${AirellesAddr}/htrc.7z
-TWOEIGHTY=https://filter.futa.gg/280blocker/280blocker_domain_ag.txt
+curl -fsSLo 280blocker_domain_ag.txt https://github.com/EnergizedProtection/mirror/raw/master/active/filter/280blocker.txt
 
-curl -fsSLo hpub.7z $PUB
-curl -fsSLo hrsk.7z $RSK
-curl -fsSLo hsex.7z $SEX
-curl -fsSLo htrc.7z $TRC
-curl -fsSLo 280blocker_domain_ag.txt $TWOEIGHTY
-
-# Decompress 7z and Copy as Txt File
-7z x -y hpub.7z && cp Hosts.pub airelle-pub.txt
-7z x -y hrsk.7z && cp Hosts.rsk airelle-rsk.txt
-7z x -y hsex.7z && cp Hosts.sex airelle-sex.txt
-7z x -y htrc.7z && cp Hosts.trc airelle-trc.txt
-
-# Remove Temp Files
-rm -rf *.pub hpub.7z
-rm -rf *.rsk hrsk.7z
-rm -rf *.sex hsex.7z
-rm -rf *.trc htrc.7z
+curl -fsSL https://github.com/EnergizedProtection/mirror/raw/master/active/filter/airelle-pub.txt
+curl -fsSL https://github.com/EnergizedProtection/mirror/raw/master/active/filter/airelle-rsk.txt
+curl -fsSL https://github.com/EnergizedProtection/mirror/raw/master/active/filter/airelle-sex.txt
+curl -fsSL https://github.com/EnergizedProtection/mirror/raw/master/active/filter/airelle-trc.txt
 
 # Remove first 6 Lines from RSK
 sed -i '1,6d' airelle-pub.txt
