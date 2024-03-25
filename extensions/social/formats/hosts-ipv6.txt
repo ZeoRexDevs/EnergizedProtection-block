@@ -25,12 +25,12 @@
 # Description: Social Sites and Apps Blocking.
 # Author: Rokib Hasan Sagar @rokibhasansagar
 # Format: hosts IPV6
-# Version: 23.04.095
-# Release: 095
-# Entries: 6,948
+# Version: 24.03.085
+# Release: 085
+# Entries: 6,953
 # Pack Code: EX50C14L-P
 # License: MIT, https://energized.pro/license
-# Updated: Wed, 05 Apr 23 18:12:43 UTC
+# Updated: Mon, 25 Mar 24 02:29:48 UTC
 # RAW: https://block.energized.pro/extensions/social/formats/hosts-ipv6.txt
 # --------------------------------------------
 #
@@ -1167,7 +1167,7 @@ ff02::3 ip6-allhosts
 :: c.ish.instagram.com
 :: c.meetup.com
 :: c.myspace.com
-:: c.ns.cdninstagram.com	
+:: c.ns.cdninstagram.com
 :: c.thumbs.redditmedia.com
 :: c.tieba.baidu.com
 :: c.weibo.com
@@ -3204,6 +3204,7 @@ ff02::3 ip6-allhosts
 :: lifg.linkedin.com
 :: lightstep.medium.com
 :: likebtn.com
+:: likee.video
 :: likhar.i.org
 :: limg2.ask.fm
 :: limg3.ask.fm
@@ -4730,7 +4731,7 @@ ff02::3 ip6-allhosts
 :: scontent-frt3-1.xx.fbcdn.net
 :: scontent-frt3-2.cdninstagram.com
 :: scontent-frt3-2.xx.fbcdn.net
-:: scontent-frx.cdninstagram.com	
+:: scontent-frx.cdninstagram.com
 :: scontent-frx5-1.cdninstagram.com
 :: scontent-frx5-1.xx.fbcdn.net
 :: scontent-gig2-1.cdninstagram.com
@@ -5503,6 +5504,7 @@ ff02::3 ip6-allhosts
 :: thefullwik.i.org
 :: theia.i.org
 :: there.plus.google.com
+:: threads.net
 :: tiasdk.app.wechat.com
 :: tibbdamour.skyrock.com
 :: tieba.baidu.com
@@ -6219,6 +6221,7 @@ ff02::3 ip6-allhosts
 :: www.tagged.com
 :: www.telegram.org
 :: www.the-dots.com
+:: www.threads.net
 :: www.tieba.baidu.com
 :: www.tiktok.com
 :: www.tumblr.com
@@ -6241,6 +6244,7 @@ ff02::3 ip6-allhosts
 :: www.www.vk.com
 :: www.www.ziraat.internet.org
 :: www.wwww.plus.google.com
+:: www.x.com
 :: www.yg4wm58qb.internet.org
 :: www.ynet.co.i.org
 :: www.yy.com
@@ -6302,6 +6306,7 @@ ff02::3 ip6-allhosts
 :: wwww.plus.google.com
 :: x-cheetah-girls-3-x.skyrock.com
 :: x-limit-stunt.skyrock.com
+:: x.com
 :: x.facebook.com
 :: x.myspace.com
 :: x.myspacecdn.com
@@ -6976,7 +6981,7 @@ ff02::3 ip6-allhosts
 :: z-p42-scontent-waw1-1.cdninstagram.com
 :: z-p42-scontent-yyz1-1.cdninstagram.com
 :: z-p42-scontent.cdninstagram.com
-:: z-p42-static.cdninstagram.com	
+:: z-p42-static.cdninstagram.com
 :: z-p42.graph.instagram.com
 :: z-p42.i.instagram.com
 :: z-p42.maps.instagram.com

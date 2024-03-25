@@ -25,12 +25,12 @@
 # Description: Social Sites and Apps Blocking.
 # Author: Rokib Hasan Sagar @rokibhasansagar
 # Format: hosts
-# Version: 23.04.095
-# Release: 095
-# Entries: 6,948
+# Version: 24.03.085
+# Release: 085
+# Entries: 6,953
 # Pack Code: EX50C14L-P
 # License: MIT, https://energized.pro/license
-# Updated: Wed, 05 Apr 23 18:12:43 UTC
+# Updated: Mon, 25 Mar 24 02:29:48 UTC
 # RAW: https://block.energized.pro/extensions/social/formats/hosts
 # --------------------------------------------
 #
@@ -1167,7 +1167,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 c.ish.instagram.com
 0.0.0.0 c.meetup.com
 0.0.0.0 c.myspace.com
-0.0.0.0 c.ns.cdninstagram.com	
+0.0.0.0 c.ns.cdninstagram.com
 0.0.0.0 c.thumbs.redditmedia.com
 0.0.0.0 c.tieba.baidu.com
 0.0.0.0 c.weibo.com
@@ -3204,6 +3204,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 lifg.linkedin.com
 0.0.0.0 lightstep.medium.com
 0.0.0.0 likebtn.com
+0.0.0.0 likee.video
 0.0.0.0 likhar.i.org
 0.0.0.0 limg2.ask.fm
 0.0.0.0 limg3.ask.fm
@@ -4730,7 +4731,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 scontent-frt3-1.xx.fbcdn.net
 0.0.0.0 scontent-frt3-2.cdninstagram.com
 0.0.0.0 scontent-frt3-2.xx.fbcdn.net
-0.0.0.0 scontent-frx.cdninstagram.com	
+0.0.0.0 scontent-frx.cdninstagram.com
 0.0.0.0 scontent-frx5-1.cdninstagram.com
 0.0.0.0 scontent-frx5-1.xx.fbcdn.net
 0.0.0.0 scontent-gig2-1.cdninstagram.com
@@ -5503,6 +5504,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 thefullwik.i.org
 0.0.0.0 theia.i.org
 0.0.0.0 there.plus.google.com
+0.0.0.0 threads.net
 0.0.0.0 tiasdk.app.wechat.com
 0.0.0.0 tibbdamour.skyrock.com
 0.0.0.0 tieba.baidu.com
@@ -6219,6 +6221,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.tagged.com
 0.0.0.0 www.telegram.org
 0.0.0.0 www.the-dots.com
+0.0.0.0 www.threads.net
 0.0.0.0 www.tieba.baidu.com
 0.0.0.0 www.tiktok.com
 0.0.0.0 www.tumblr.com
@@ -6241,6 +6244,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.www.vk.com
 0.0.0.0 www.www.ziraat.internet.org
 0.0.0.0 www.wwww.plus.google.com
+0.0.0.0 www.x.com
 0.0.0.0 www.yg4wm58qb.internet.org
 0.0.0.0 www.ynet.co.i.org
 0.0.0.0 www.yy.com
@@ -6302,6 +6306,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 wwww.plus.google.com
 0.0.0.0 x-cheetah-girls-3-x.skyrock.com
 0.0.0.0 x-limit-stunt.skyrock.com
+0.0.0.0 x.com
 0.0.0.0 x.facebook.com
 0.0.0.0 x.myspace.com
 0.0.0.0 x.myspacecdn.com
@@ -6976,7 +6981,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 z-p42-scontent-waw1-1.cdninstagram.com
 0.0.0.0 z-p42-scontent-yyz1-1.cdninstagram.com
 0.0.0.0 z-p42-scontent.cdninstagram.com
-0.0.0.0 z-p42-static.cdninstagram.com	
+0.0.0.0 z-p42-static.cdninstagram.com
 0.0.0.0 z-p42.graph.instagram.com
 0.0.0.0 z-p42.i.instagram.com
 0.0.0.0 z-p42.maps.instagram.com

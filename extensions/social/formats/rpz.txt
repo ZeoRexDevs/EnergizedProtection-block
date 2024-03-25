@@ -25,12 +25,12 @@
 ; Description: Social Sites and Apps Blocking.
 ; Author: Rokib Hasan Sagar @rokibhasansagar
 ; Format: rpz
-; Version: 23.04.095
-; Release: 095
-; Entries: 6,948
+; Version: 24.03.085
+; Release: 085
+; Entries: 6,953
 ; Pack Code: EX50C14L-P
 ; License: MIT, https://energized.pro/license
-; Updated: Wed, 05 Apr 23 18:12:43 UTC
+; Updated: Mon, 25 Mar 24 02:29:48 UTC
 ; RAW: https://block.energized.pro/extensions/social/formats/rpz.txt
 ; --------------------------------------------
 ;
@@ -1156,7 +1156,7 @@ c.i.org CNAME .
 c.ish.instagram.com CNAME .
 c.meetup.com CNAME .
 c.myspace.com CNAME .
-c.ns.cdninstagram.com	 CNAME .
+c.ns.cdninstagram.com CNAME .
 c.thumbs.redditmedia.com CNAME .
 c.tieba.baidu.com CNAME .
 c.weibo.com CNAME .
@@ -3193,6 +3193,7 @@ life.wechat.com CNAME .
 lifg.linkedin.com CNAME .
 lightstep.medium.com CNAME .
 likebtn.com CNAME .
+likee.video CNAME .
 likhar.i.org CNAME .
 limg2.ask.fm CNAME .
 limg3.ask.fm CNAME .
@@ -4719,7 +4720,7 @@ scontent-frt3-1.cdninstagram.com CNAME .
 scontent-frt3-1.xx.fbcdn.net CNAME .
 scontent-frt3-2.cdninstagram.com CNAME .
 scontent-frt3-2.xx.fbcdn.net CNAME .
-scontent-frx.cdninstagram.com	 CNAME .
+scontent-frx.cdninstagram.com CNAME .
 scontent-frx5-1.cdninstagram.com CNAME .
 scontent-frx5-1.xx.fbcdn.net CNAME .
 scontent-gig2-1.cdninstagram.com CNAME .
@@ -5492,6 +5493,7 @@ the9th.slack.com CNAME .
 thefullwik.i.org CNAME .
 theia.i.org CNAME .
 there.plus.google.com CNAME .
+threads.net CNAME .
 tiasdk.app.wechat.com CNAME .
 tibbdamour.skyrock.com CNAME .
 tieba.baidu.com CNAME .
@@ -6208,6 +6210,7 @@ www.t.co CNAME .
 www.tagged.com CNAME .
 www.telegram.org CNAME .
 www.the-dots.com CNAME .
+www.threads.net CNAME .
 www.tieba.baidu.com CNAME .
 www.tiktok.com CNAME .
 www.tumblr.com CNAME .
@@ -6230,6 +6233,7 @@ www.www.meetup.com CNAME .
 www.www.vk.com CNAME .
 www.www.ziraat.internet.org CNAME .
 www.wwww.plus.google.com CNAME .
+www.x.com CNAME .
 www.yg4wm58qb.internet.org CNAME .
 www.ynet.co.i.org CNAME .
 www.yy.com CNAME .
@@ -6291,6 +6295,7 @@ wwww.internet.org CNAME .
 wwww.plus.google.com CNAME .
 x-cheetah-girls-3-x.skyrock.com CNAME .
 x-limit-stunt.skyrock.com CNAME .
+x.com CNAME .
 x.facebook.com CNAME .
 x.myspace.com CNAME .
 x.myspacecdn.com CNAME .
@@ -6965,7 +6970,7 @@ z-p42-scontent-vie1-1.cdninstagram.com CNAME .
 z-p42-scontent-waw1-1.cdninstagram.com CNAME .
 z-p42-scontent-yyz1-1.cdninstagram.com CNAME .
 z-p42-scontent.cdninstagram.com CNAME .
-z-p42-static.cdninstagram.com	 CNAME .
+z-p42-static.cdninstagram.com CNAME .
 z-p42.graph.instagram.com CNAME .
 z-p42.i.instagram.com CNAME .
 z-p42.maps.instagram.com CNAME .
