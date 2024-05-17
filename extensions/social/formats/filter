@@ -25,13 +25,13 @@
 ! Description: Social Sites and Apps Blocking.
 ! Author: Rokib Hasan Sagar @rokibhasansagar
 ! Format: adblock
-! Version: 23.04.095
-! Release: 095
+! Version: 24.05.138
+! Release: 138
 ! Expires: 7 days (update frequency)
-! Entries: 6,948
+! Entries: 7,287
 ! Pack Code: EX50C14L-P
 ! License: MIT, https://energized.pro/license
-! Updated: Wed, 05 Apr 23 18:12:43 UTC
+! Updated: Fri, 17 May 24 02:34:05 UTC
 ! RAW: https://block.energized.pro/extensions/social/formats/filter
 ! --------------------------------------------
 !
@@ -145,6 +145,7 @@
 ||123456.qzone.qq.com^
 ||1259721398.qzone.qq.com^
 ||126-trouter-cus-a.drip.trouter.skype.com^
+||127.0.0.7 p19-sign.tiktokcdn-us.com^
 ||129-trouter-cus-a.drip.trouter.skype.com^
 ||131-trouter-neu-a.drip.trouter.skype.com^
 ||1316548323.qzone.qq.com^
@@ -173,6 +174,7 @@
 ||2013.twitter.com^
 ||2014.renren.com^
 ||2014.twitter.com^
+||2015.twitter.com^
 ||21622442.qzone.qq.com^
 ||220-226-188-56.0.freebasics.com^
 ||223-trouter-weu-a.drip.trouter.skype.com^
@@ -298,6 +300,7 @@
 ||about.twitter.com^
 ||abrahamhicks.meetup.com^
 ||abs.twimg.com^
+||abtest-sg-tiktok.byteoversea.com^
 ||abtest-va-tiktok.byteoversea.com^
 ||abtest.api.viber.com^
 ||abtesting.yy.com^
@@ -313,6 +316,8 @@
 ||accountpage.line.me^
 ||accounts-oauth.pinterest.com^
 ||accounts.pinterest.com^
+||accounts.reddit.com^
+||accounts.snapchat.com^
 ||accounts.snapfish.com^
 ||acs.i.org^
 ||acs.plus.google.com^
@@ -345,10 +350,12 @@
 ||admin.internet.org^
 ||admin.periscope.tv^
 ||admin.wechat.com^
+||ads-api.twitter.com^
 ||ads-bidder-api.twitter.com^
 ||ads-d.integration.viber.com^
 ||ads-d.viber.com^
 ||ads-latest.pinterest.com^
+||ads-twitter.com^
 ||ads.app.wechat.com^
 ||ads.cdn.viber.com^
 ||ads.facebook.com^
@@ -356,11 +363,13 @@
 ||ads.linkedin.com^
 ||ads.pinterest.com^
 ||ads.reddit.com^
+||ads.tiktok.com^
 ||ads.twitter.com^
 ||ads.viber.com^
 ||ads.wechat.com^
 ||adserv.kiwibox.com^
 ||adserving.plus.google.com^
+||adsmanager.facebook.com^
 ||adv.odnoklassniki.ru^
 ||advertisers.viber.com^
 ||advertising.snapchat.com^
@@ -704,6 +713,7 @@
 ||amt.flickr.com^
 ||an.facebook.com^
 ||analytics.pinterest.com^
+||analytics.tiktok.com^
 ||analytics.twitter.com^
 ||and.come.view-pictures.plus.google.com^
 ||android.bugly.qq.com^
@@ -733,6 +743,7 @@
 ||api-0-4-5.twitter.com^
 ||api-0-4-6.twitter.com^
 ||api-0-4-7.twitter.com^
+||api-0-4-8.twitter.com^
 ||api-0-5-0.twitter.com^
 ||api-1-0-0.twitter.com^
 ||api-2-0-0.twitter.com^
@@ -753,6 +764,7 @@
 ||api-33-0-0.twitter.com^
 ||api-34-0-0.twitter.com^
 ||api-35-0-0.twitter.com^
+||api-36-0-0.twitter.com^
 ||api-37-0-0.twitter.com^
 ||api-38-0-0.twitter.com^
 ||api-39-0-0.twitter.com^
@@ -766,9 +778,11 @@
 ||api-47-0-0.twitter.com^
 ||api-dev.internet.org^
 ||api-dev.musical.ly^
+||api-kit.snapchat.com^
 ||api-pinterest-com-eip-akadns-net.pinterest.com^
 ||api-rangers.line.me^
 ||api-read.facebook.com^
+||api-stream.twitter.com^
 ||api-test.twitter.com^
 ||api.ak.facebook.com^
 ||api.aps.skype.com^
@@ -808,6 +822,7 @@
 ||api.teams.skype.com^
 ||api.telegram.org^
 ||api.the-dots.com^
+||api.tiktokv.com^
 ||api.today.line.me^
 ||api.tumblr.com^
 ||api.tw.weibo.com^
@@ -818,6 +833,7 @@
 ||api.weheartit.com^
 ||api.weibo.com^
 ||api.whatsapp.com^
+||api16.tiktokv.com^
 ||api2-1.musical.ly^
 ||api2-t1.musical.ly^
 ||api2-t2.musical.ly^
@@ -837,6 +853,7 @@
 ||apli.ask.fm^
 ||apmi.ask.fm^
 ||apo.ask.fm^
+||app-analytics-v2.snapchat.com^
 ||app-analyticsv2.snapchat.com^
 ||app.3g.yy.com^
 ||app.facebook.com^
@@ -844,6 +861,7 @@
 ||app.pinterest.com^
 ||app.plus.google.com^
 ||app.pointdrive.linkedin.com^
+||app.snapchat.com^
 ||app.tweet.twitter.com^
 ||app.vk.com^
 ||app.wechat.com^
@@ -857,6 +875,7 @@
 ||appi.ask.fm^
 ||appletv.flickr.com^
 ||applog.musical.ly^
+||applog.tiktokv.com^
 ||applogin.expresswifi.com^
 ||apply.wechat.com^
 ||appmonitortest.biz.weibo.com^
@@ -884,6 +903,7 @@
 ||asafziv.sb.freebasics.com^
 ||ash1.fbcdn.net^
 ||asia-red.plus.google.com^
+||asia-southeast1-gcp.api.snapchat.com^
 ||asiaa-time.skyrock.com^
 ||asian.meetup.com^
 ||asiste.pemex.com.internet.org^
@@ -948,6 +968,10 @@
 ||avanzar.slack.com^
 ||avatar.skype.com^
 ||away.vk.com^
+||aws-cf.api.snapchat.com^
+||aws-proxy-gcp.api.snapchat.com^
+||aws.api.snapchat.com^
+||aws.duplex.snapchat.com^
 ||axiata.m.facebook.com^
 ||axis.internet.org^
 ||axis.m.facebook.com^
@@ -1044,6 +1068,7 @@
 ||bigbrother.reddit.com^
 ||bigzipfiles.facebook.com^
 ||biotech.meetup.com^
+||bitmoji.api.snapchat.com^
 ||bitnam.i.org^
 ||biz.wechat.com^
 ||biz.weibo.com^
@@ -1142,6 +1167,7 @@
 ||buttons.reddit.com^
 ||buy.line.me^
 ||buzzbuttons.com^
+||byteglb.com^
 ||c-broker-asse-01.broker.skype.com^
 ||c-broker-euwe-01.broker.skype.com^
 ||c.facebook.com^
@@ -1149,7 +1175,7 @@
 ||c.ish.instagram.com^
 ||c.meetup.com^
 ||c.myspace.com^
-||c.ns.cdninstagram.com	^
+||c.ns.cdninstagram.com^
 ||c.thumbs.redditmedia.com^
 ||c.tieba.baidu.com^
 ||c.weibo.com^
@@ -1216,6 +1242,7 @@
 ||cdn.medium.com^
 ||cdn.syndication.twimg.com^
 ||cdn.syndication.twitter.com^
+||cdn.whatsapp.net^
 ||cdn.wibiya.com^
 ||cdninstagram.com^
 ||celcom.rastream.com.internet.org^
@@ -1226,6 +1253,7 @@
 ||ceroc.meetup.com^
 ||certification.linkedin.com^
 ||cf.myspace.com^
+||cf.perf.linkedin.com^
 ||cfc.internet.org^
 ||cftn.i.org^
 ||cgi.connect.qq.com^
@@ -1287,6 +1315,7 @@
 ||chat-gateway288-prod.chat.snapchat.com^
 ||chat-gateway393-prod.chat.snapchat.com^
 ||chat-gateway397-prod.chat.snapchat.com^
+||chat.cdn.whatsapp.net^
 ||chat.myspace.com^
 ||chat.tagged.com^
 ||chat.whatsapp.com^
@@ -1313,6 +1342,7 @@
 ||cl.pinterest.com^
 ||classifieds.myspace.com^
 ||click.e.twitter.com^
+||click.snapchat.com^
 ||clientad.yy.com^
 ||clientconfig.yy.com^
 ||clientmetrics-augmentum.kik.com^
@@ -1414,6 +1444,7 @@
 ||creator-mag.line.me^
 ||creator-static.line.me^
 ||creator.line.me^
+||creators.facebook.com^
 ||credit-account.staging.viber.com^
 ||criticalmass.meetup.com^
 ||cryptocatz.slack.com^
@@ -1481,6 +1512,7 @@
 ||datememe.com^
 ||davivienda.m.facebook.com^
 ||day-trips.meetup.com^
+||dc-api.twitter.com^
 ||dc.ads.linkedin.com^
 ||dc.i.org^
 ||dczia.slack.com^
@@ -1575,6 +1607,7 @@
 ||digi.freebasics.com^
 ||digitalart.meetup.com^
 ||digitalfuelmarketing.slack.com^
+||direct-response-gcp.api.snapchat.com^
 ||direct.musical.ly^
 ||direct.static.tagged.com^
 ||direct.www.tagged.com^
@@ -1584,6 +1617,7 @@
 ||discovery-aus.snapfish.com^
 ||discovery.snapfish.com^
 ||distances.i.org^
+||dit.whatsapp.net^
 ||dixonscarphone.m.facebook.com^
 ||dj.captcha.qq.com^
 ||dj.renren.com^
@@ -1601,6 +1635,13 @@
 ||dm.bytedance.com^
 ||dm.m.facebook.com^
 ||dm.reddit.com^
+||dm16-alisg.tiktokv.com^
+||dm16-useast1a.tiktokv.com^
+||dm16-useast2a.tiktokv.com^
+||dm16-va.tiktokv.com^
+||dm16.tiktokv.com^
+||dms-akam.licdn.com^
+||dms.licdn.com^
 ||dnet.expresswifi.com^
 ||dns.facebook.com^
 ||dns.internet.org^
@@ -1649,6 +1690,8 @@
 ||dtac.0.co.th.0.freebasics.com^
 ||dtac.freebasics.com^
 ||dualstack.pinterest.map.fastly.net^
+||dualstack.twimg.twitter.map.fastly.net^
+||dualstack.video.twitter.map.fastly.net^
 ||dw.com.0.freebasics.com^
 ||dyi.www.instagram.com^
 ||dyn.web.whatsapp.com^
@@ -1946,6 +1989,7 @@
 ||edge-sonar-shv-17-prn1.fbcdn.net^
 ||edge-sonar-shv-18-prn1.fbcdn.net^
 ||edge-star-shv-12-frc3.facebook.com^
+||edge-stun.facebook.com^
 ||edge-video-shv-01-ams2.fbcdn.net^
 ||edge-video-shv-01-ams3.fbcdn.net^
 ||edge-video-shv-01-arn2.fbcdn.net^
@@ -2078,6 +2122,7 @@
 ||email.weheartit.com^
 ||emails.snapfish.com^
 ||embed.periscope.tv^
+||embed.reddit.com^
 ||embed.tumblr.com^
 ||embedr.flickr.com^
 ||emlclick.newsletter.swarmapp.com^
@@ -2149,6 +2194,7 @@
 ||eu2.badoo.com^
 ||eul.badoo.com^
 ||eurok.i.org^
+||europe-west1-gcp.api.snapchat.com^
 ||eus1-api.asm.skype.com^
 ||event-web.line.me^
 ||event.weibo.com^
@@ -2160,6 +2206,9 @@
 ||eweb.telegram.org^
 ||eweibo.dpool.weibo.com^
 ||exhenta.i.org^
+||exp1.www.linkedin.com^
+||exp2.www.linkedin.com^
+||exp3.www.linkedin.com^
 ||explore.flickr.com^
 ||expresswifi.com^
 ||external-cdt1-1.xx.fbcdn.net^
@@ -2212,10 +2261,20 @@
 ||fa.i.org^
 ||facebook-studio.com^
 ||facebook-web-clients.appspot.com^
+||facebook.at^
 ||facebook.be^
+||facebook.ca^
+||facebook.co^
+||facebook.co.za^
 ||facebook.com^
+||facebook.com.au^
+||facebook.com.br^
+||facebook.com.es^
 ||facebook.com.facebook.com^
+||facebook.com.mx^
+||facebook.com.vn^
 ||facebook.de^
+||facebook.design^
 ||facebook.dk^
 ||facebook.es^
 ||facebook.fr^
@@ -2224,8 +2283,12 @@
 ||facebook.it^
 ||facebook.jp^
 ||facebook.mx^
+||facebook.net^
 ||facebook.nl^
 ||facebook.no^
+||facebook.org^
+||facebook.pl^
+||facebook.ru^
 ||facebook.se^
 ||facebook.us^
 ||fairview.internet.org^
@@ -2299,6 +2362,7 @@
 ||fbcdn.net^
 ||fbexternal-a.akamaihd.net^
 ||fbjs.facebook.com^
+||fblite-p1.c10r.facebook.com^
 ||fbsbx.com^
 ||fbstatic-a.akamaihd.net^
 ||fbstatic.net^
@@ -2436,7 +2500,9 @@
 ||friends.meetme.com^
 ||friends.myspace.com^
 ||friends.plus.google.com^
+||frontier-va.tiktokv.com^
 ||frontier.musical.ly^
+||frontier.tiktokv.com^
 ||ftp.freebasics.com^
 ||ftp.internet.org^
 ||ftp.mx.freebasics.com^
@@ -2445,7 +2511,6 @@
 ||fts.yy.com^
 ||fullmetalalchimist724ed.skyrock.com^
 ||fun-times.meetup.com^
-||fundingchoicesmessages.google.com^
 ||fusionbase.qzone.qq.com^
 ||g.i.org^
 ||g.kiwibox.com^
@@ -2477,7 +2542,13 @@
 ||gb.pinterest.com^
 ||gbot.integrations.telegram.org^
 ||gcore.game.i.org^
+||gcp.api.snapchat.com^
 ||gdfgd.telegram.org^
+||gecko-sg.tiktokv.com^
+||gecko-va.tiktokv.com^
+||gecko-va.tiktokv.com.edgesuite.net^
+||gecko16-normal-c-useast1a.tiktokv.com^
+||gecko16-normal-c-useast2a.tiktokv.com^
 ||gegabytes.game.i.org^
 ||generalelectric.m.facebook.com^
 ||geofilters-community-api.snapchat.com^
@@ -2530,6 +2601,8 @@
 ||gp.reddit.com^
 ||gpstream.mobi0.freebasics.com^
 ||gq1.farm3.static.flickr.com^
+||gql-fed.reddit.com^
+||gql-realtime.reddit.com^
 ||gql.reddit.com^
 ||gr.linkedin.com^
 ||gr.pinterest.com^
@@ -2557,6 +2630,7 @@
 ||gtcp-dc.twitter.com^
 ||gtcp-na.twitter.com^
 ||gtcp.twitter.com^
+||gts.byteoversea.net^
 ||gu.twimg.com^
 ||guanjia.qzone.qq.com^
 ||guce.flickr.com^
@@ -2619,6 +2693,7 @@
 ||help.myspace.com^
 ||help.periscope.tv^
 ||help.pinterest.com^
+||help.snapchat.com^
 ||help.snapfish.com^
 ||help.twitter.com^
 ||help.wechat.com^
@@ -2658,6 +2733,7 @@
 ||hongbao.weibo.com^
 ||honktechnologies.slack.com^
 ||hooks.slack.com^
+||hoops.games.snapchat.com^
 ||hootsuite.m.facebook.com^
 ||horizon.twitter.com^
 ||hoshinorom.i.org^
@@ -2806,6 +2882,7 @@
 ||ia57.odnoklassniki.ru^
 ||ib.linkedin.com^
 ||ib.qq.com^
+||ib.tiktokv.com^
 ||ibytedtos.com^
 ||ic2.qzone.qq.com^
 ||ic2.s8.qzone.qq.com^
@@ -2981,7 +3058,13 @@
 ||instagram-shv-17-prn1.fbcdn.net^
 ||instagram-shv-18-prn1.fbcdn.net^
 ||instagram.c10r.facebook.com^
+||instagram.c10r.instagram.com^
+||instagram.co^
 ||instagram.com^
+||instagram.com.br^
+||instagram.de^
+||instagram.fr^
+||instagram.net^
 ||instagramstatic-a.akamaihd.net^
 ||instagramstatic-a.akamaihd.net.edgesuite.net^
 ||instantview.telegram.org^
@@ -2997,6 +3080,7 @@
 ||internet.org^
 ||internet.telegram.org^
 ||internetbatman.slack.com^
+||intg.snapchat.com^
 ||intra.internet.org^
 ||intranet.kik.com^
 ||intro.linkedin.com^
@@ -3030,6 +3114,7 @@
 ||is-is.facebook.com^
 ||is.linkedin.com^
 ||isecom.slack.com^
+||isnssdk.com^
 ||isoda-action.yy.com^
 ||isoda-follow.yy.com^
 ||isoda-oss.yy.com^
@@ -3063,6 +3148,7 @@
 ||ja.m.meetme.com^
 ||ja.swarmapp.com^
 ||ja.www.meetme.com^
+||jaguar-prod.snapchat.com^
 ||javascript.internet.org^
 ||jawabarat.internet.org^
 ||jb-47.reddit.com^
@@ -3095,6 +3181,7 @@
 ||jp.pinterest.com^
 ||jp.twimg.com^
 ||jp.weibo.com^
+||jsb-va.tiktokv.com^
 ||jss.medium.com^
 ||jv.datememe.com^
 ||jw-ap.i.org^
@@ -3145,6 +3232,7 @@
 ||lads.myspace.com^
 ||lan-o.line.me^
 ||lan.line.me^
+||lan.sdk.linkedin.com^
 ||lan3rd-o.line.me^
 ||lan3rd.line.me^
 ||landmarkgroup.m.facebook.com^
@@ -3168,11 +3256,14 @@
 ||legal.twitter.com^
 ||legox.yy.com^
 ||legs.reddit.com^
+||lens.games.snapchat.com^
+||lens.snapchat.com^
 ||lensstudio.snapchat.com^
 ||lesbian-dating.meetup.com^
 ||lesbians-over-40.meetup.com^
 ||lessbuttons.com^
 ||lex-us-west-2.periscope.tv^
+||lf1-ttcdn-tos.pstatp.com^
 ||lghnjpm.i.org^
 ||lgmob.yy.com^
 ||lgn.yy.com^
@@ -3186,6 +3277,7 @@
 ||lifg.linkedin.com^
 ||lightstep.medium.com^
 ||likebtn.com^
+||likee.video^
 ||likhar.i.org^
 ||limg2.ask.fm^
 ||limg3.ask.fm^
@@ -3196,6 +3288,7 @@
 ||link-stg.ask.fm^
 ||link.ask.fm^
 ||link.medium.com^
+||link.snapchat.com^
 ||link.staging.ask.fm^
 ||linkedin.com^
 ||linkedinforgood.linkedin.com^
@@ -3235,11 +3328,17 @@
 ||locp-ir.aws.viber.com^
 ||locp-ir.viber.com^
 ||locp-sg.aws.viber.com^
+||log-va.tiktokv.com^
+||log-va.tiktokv.com.edgekey.net^
 ||log.musical.ly^
 ||log.myspace.com^
 ||log.pinterest.com^
 ||log.quora.com^
 ||log.tbs.qq.com^
+||log.tiktokv.com^
+||log.tiktokv.com.edgesuite.net^
+||log16-normal-c-useast1a.tiktokv.com^
+||log16-normal-c-useast2a.tiktokv.com^
 ||logger.instagram.com^
 ||login.facebook.com^
 ||login.internet.org^
@@ -3259,6 +3358,7 @@
 ||lp.i.org^
 ||lp.viber.com^
 ||lpch.internet.org^
+||lt-lt.facebook.com^
 ||lt-lt.freebasics.com^
 ||lu.linkedin.com^
 ||lushglobal.slack.com^
@@ -3389,36 +3489,63 @@
 ||mbasic.internet.org^
 ||mc.qzone.qq.com^
 ||mc1.test.renren.com^
+||mcs-sg.tiktokv.com^
+||mcs-va-useast2a.tiktokv.com^
+||mcs-va.tiktokv.com^
 ||mdp.pinterest.com^
 ||mdw-com.0.freebasics.com^
 ||me.linkedin.com^
 ||me.telegram.org^
+||media-akam.licdn.com^
+||media-ams2-1.cdn.whatsapp.net^
 ||media-ams3-1.cdn.whatsapp.net^
+||media-ams4-1.cdn.whatsapp.net^
 ||media-amt2-1.cdn.whatsapp.net^
 ||media-arn2-1.cdn.whatsapp.net^
+||media-atl3-1.cdn.whatsapp.net^
 ||media-ber1-1.cdn.whatsapp.net^
+||media-bog2-1.cdn.whatsapp.net^
 ||media-bru2-1.cdn.whatsapp.net^
 ||media-cache-ec0.pinterest.com^
 ||media-cache-ec1.pinterest.com^
 ||media-cdt1-1.cdn.whatsapp.net^
 ||media-dfw5-1.cdn.whatsapp.net^
+||media-dfw5-2.cdn.whatsapp.net^
 ||media-direct.cdn.viber.com^
+||media-dus1-1.cdn.whatsapp.net^
+||media-ecst.licdn.com^
+||media-exp1.licdn.com^
+||media-exp3.licdn.com^
 ||media-files.aws.viber.com^
+||media-fra3-1.cdn.whatsapp.net^
+||media-fra3-2.cdn.whatsapp.net^
+||media-fra5-1.cdn.whatsapp.net^
 ||media-frt3-1.cdn.whatsapp.net^
 ||media-frt3-2.cdn.whatsapp.net^
 ||media-frx5-1.cdn.whatsapp.net^
 ||media-iad3-1.cdn.whatsapp.net^
+||media-iad3-2.cdn.whatsapp.net^
 ||media-lax3-1.cdn.whatsapp.net^
 ||media-lax3-2.cdn.whatsapp.net^
 ||media-lga3-1.cdn.whatsapp.net^
+||media-lga3-2.cdn.whatsapp.net^
 ||media-lhr3-1.cdn.whatsapp.net^
+||media-lhr6-1.cdn.whatsapp.net^
+||media-lhr6-2.cdn.whatsapp.net^
+||media-lhr8-1.cdn.whatsapp.net^
+||media-lhr8-2.cdn.whatsapp.net^
 ||media-lht6-1.cdn.whatsapp.net^
 ||media-mad1-1.cdn.whatsapp.net^
 ||media-mia3-1.cdn.whatsapp.net^
+||media-mia3-2.cdn.whatsapp.net^
 ||media-mxp1-1.cdn.whatsapp.net^
+||media-ord5-1.cdn.whatsapp.net^
+||media-ord5-2.cdn.whatsapp.net^
 ||media-ort2-1.cdn.whatsapp.net^
 ||media-ort2-2.cdn.whatsapp.net^
 ||media-otp1-1.cdn.whatsapp.net^
+||media-qro1-1.cdn.whatsapp.net^
+||media-qro1-2.cdn.whatsapp.net^
 ||media-sea1-1.cdn.whatsapp.net^
 ||media-server-142-93-132-235.media.kik.com^
 ||media-server-162-243-140-114.media.kik.com^
@@ -3433,6 +3560,7 @@
 ||media-sof1-1.cdn.whatsapp.net^
 ||media-vie1-1.cdn.whatsapp.net^
 ||media-waw1-1.cdn.whatsapp.net^
+||media-xsp1-1.cdn.whatsapp.net^
 ||media-yyz1-1-cdn.whatsapp.net^
 ||media.api.aws.viber.com^
 ||media.api.eu.aws.viber.com^
@@ -3494,6 +3622,7 @@
 ||men-and-women-golf.meetup.com^
 ||mentor.linkedin.com^
 ||merch.discordapp.com^
+||merchantpool1.linkedin.com^
 ||message.myspace.com^
 ||message.tieba.baidu.com^
 ||messages-facebook.com^
@@ -3513,11 +3642,13 @@
 ||mia22.badoo.com^
 ||miami-dade.meetup.com^
 ||microsoft.m.facebook.com^
+||mid4.linkedin.com^
 ||mietra-de.m.facebook.com^
 ||mimosa.qa.snapfish.com^
 ||minghu.i.org^
 ||miro.medium.com^
 ||miroglio.m.facebook.com^
+||mix.linkedin.com^
 ||mixpanelproxy.kik.com^
 ||mkbi.slack.com^
 ||mkgandh.i.org^
@@ -3536,6 +3667,7 @@
 ||mmi701.whatsapp.net^
 ||mmi731.whatsapp.net^
 ||mms.whatsapp.net^
+||mmx-ds.cdn.whatsapp.net^
 ||mo.indosat.com.internet.org^
 ||mobi.freebasics.com^
 ||mobile-blog.line.me^
@@ -3567,8 +3699,12 @@
 ||moments-photos.gotinder.com^
 ||moms-of-infants-toddlers.meetup.com^
 ||mon-va.byteoversea.com^
+||mon-va.tiktokv.com^
+||mon-va.tiktokv.com.edgesuite.net^
 ||mon.byteoversea.com^
 ||mon.musical.ly^
+||mon.tiktokv.com^
+||mon.tiktokv.com.edgesuite.net^
 ||montedeipasch.i.org^
 ||moonangel803.skyrock.com^
 ||mortrineo.slack.com^
@@ -3586,6 +3722,7 @@
 ||mqaeu.badoo.com^
 ||mqaus.badoo.com^
 ||mqtt-ig-p4.facebook.com^
+||mqtt-mini.c10r.facebook.com^
 ||mqtt-mini.facebook.com^
 ||mqtt-p4.facebook.com^
 ||mqtt.c10r.facebook.com^
@@ -3611,6 +3748,7 @@
 ||mtrace.qq.com^
 ||mus1.badoo.com^
 ||muscdn.com^
+||musemuse.cn^
 ||music-jp-coupon.line.me^
 ||music-mag.line.me^
 ||music.line.me^
@@ -3626,6 +3764,7 @@
 ||mux.twitter.com^
 ||mv.qzone.qq.com^
 ||mvd.plus.google.com^
+||mvm.snapchat.com^
 ||mx.bizsugar.com^
 ||mx.freebasics.com^
 ||mx.linkedin.com^
@@ -3823,6 +3962,7 @@
 ||nr.linkedin.com^
 ||nradiomaria.internet.org^
 ||nread-worldreader-org.0.internet.org^
+||ns.facebook.com^
 ||ns.internet.org^
 ||ns1.facebook.com^
 ||ns1.linkedin.com^
@@ -4012,22 +4152,43 @@
 ||overseacomm.wechat.com^
 ||owa.internet.org^
 ||ox-d.weheartit.com^
+||p-upload.facebook.com^
 ||p.badoo.com^
 ||p.facebook.com^
 ||p.freebasics.com^
 ||p.internet.org^
 ||p.twimg.com^
 ||p.weibo.com^
+||p1-tt-ipv6.byteimg.com^
+||p1-tt.byteimg.com^
 ||p1.qzone.qq.com^
+||p16-ad-sg.ibyteimg.com^
+||p16-pu-sign-ie.tiktokcdn-eu.com^
+||p16-sign-sg.tiktokcdn.com^
+||p16-sign-va.tiktokcdn.com^
+||p16-sign.tiktokcdn-us.com^
+||p16-tiktok-sg.ibyteimg.com^
+||p16-tiktok-sign-va-h2.ibyteimg.com^
+||p16-tiktok-va-h2.ibyteimg.com^
+||p16-tiktok-va.ibyteimg.com^
 ||p16-tiktokcdn-com.akamaized.net^
+||p16-va-tiktok.ibyteimg.com^
 ||p16.hypstarcdn.com^
+||p16.tiktokcdn-us.com^
+||p19-pu-ie.tiktokcdn-eu.com^
+||p26-tt.byteimg.com^
 ||p28.badoo.com^
+||p3-tt-ipv6.byteimg.com^
 ||p63.badoo.com^
+||p77-va.tiktokcdn.com^
+||p77-webcast.tiktokcdn.com^
+||p9-tt.byteimg.com^
 ||pabotform.viber.com^
 ||pacific.facebook.com^
 ||page.line.me^
 ||page.renren.com^
 ||page.yy.com^
+||pages.facebook.com^
 ||pagp.gotinder.com^
 ||pai.ask.fm^
 ||pai.renren.com^
@@ -4051,6 +4212,7 @@
 ||passport.weibo.com^
 ||pattinson-stewart-forum.skyrock.com^
 ||pax.discordapp.com^
+||pay.facebook.com^
 ||pay.line.me^
 ||pay.reddit.com^
 ||pay.renren.com^
@@ -4087,16 +4249,22 @@
 ||photoreview.gotinder.com^
 ||photos-a-ord.xx.fbcdn.net^
 ||photos-a.ak.fbcdn.net^
+||photos-a.ak.instagram.com^
 ||photos-a.xx.fbcdn.net^
 ||photos-b-ord.xx.fbcdn.net^
 ||photos-b.ak.fbcdn.net^
+||photos-b.ak.instagram.com^
 ||photos-b.xx.fbcdn.net^
 ||photos-c.ak.fbcdn.net^
 ||photos-d.ak.fbcdn.net^
+||photos-d.ak.instagram.com^
 ||photos-e.ak.fbcdn.net^
+||photos-e.ak.instagram.com^
 ||photos-f.ak.fbcdn.net^
+||photos-f.ak.instagram.com^
 ||photos-g.ak.fbcdn.net^
 ||photos-h.ak.fbcdn.net^
+||photos-h.ak.instagram.com^
 ||photos-snc1.fbcdn.net^
 ||photos.meetme.com^
 ||photos.tagged.com^
@@ -4157,6 +4325,9 @@
 ||pl.pinterest.com^
 ||place.weibo.com^
 ||places-manager-api.snapchat.com^
+||platform-akam.linkedin.com^
+||platform-azur.linkedin.com^
+||platform-ecst.linkedin.com^
 ||platform.cdninstagram.com^
 ||platform.cf.kik.com^
 ||platform.foursquare.com^
@@ -4166,6 +4337,7 @@
 ||platform.meetme.com^
 ||platform.tumblr.com^
 ||platform.twitter.com^
+||platform.twitter.map.fastly.net^
 ||play.line.me^
 ||play.snapchat.com^
 ||playzone2.qzone.qq.com^
@@ -4184,6 +4356,7 @@
 ||polls.linkedin.com^
 ||pomoc.linkedin.com^
 ||pon-zi-generation.skyrock.com^
+||ponf.linkedin.com^
 ||pool.static.flickr.com^
 ||pop-efr5.perf.linkedin.com^
 ||pop-ehk1.perf.linkedin.com^
@@ -4223,6 +4396,7 @@
 ||ppg.yy.com^
 ||pps.whatsapp.net^
 ||pr.linkedin.com^
+||premium-stories.snapchat.com^
 ||premium.linkedin.com^
 ||preprod.instagram.com^
 ||preschool-playgroup.meetup.com^
@@ -4233,6 +4407,9 @@
 ||printer.discordapp.com^
 ||prius.meetup.com^
 ||privacy.reddit.com^
+||pro-accounts.snapchat.com^
+||pro-stories.snapchat.com^
+||pro.twitter.com^
 ||probe.twitter.com^
 ||prod-assets.periscope.tv^
 ||prod-chatman-ancillary-ap-northeast-1.periscope.tv^
@@ -4334,6 +4511,22 @@
 ||public.renren.com^
 ||publish.twitter.com^
 ||publishers.medium.com^
+||pull-f3-hs.pstatp.com^
+||pull-f5-hs.flive.pstatp.com^
+||pull-f5-hs.pstatp.com^
+||pull-f5-mus.pstatp.com^
+||pull-flv-f1-hs.pstatp.com^
+||pull-flv-f6-hs.pstatp.com^
+||pull-flv-l1-hs.pstatp.com^
+||pull-flv-l1-mus.pstatp.com^
+||pull-flv-l6-hs.pstatp.com^
+||pull-hls-l1-mus.pstatp.com^
+||pull-l3-hs.pstatp.com^
+||pull-rtmp-f1-hs.pstatp.com^
+||pull-rtmp-f6-hs.pstatp.com^
+||pull-rtmp-l1-hs.pstatp.com^
+||pull-rtmp-l1-mus.pstatp.com^
+||pull-rtmp-l6-hs.pstatp.com^
 ||pulse.twitter.com^
 ||purchasing.linkedin.com^
 ||push.tagged.com^
@@ -4364,6 +4557,8 @@
 ||qu.reddit.com^
 ||quartz-du-forum.skyrock.com^
 ||queuev4.vk.com^
+||quic-tiktok-core-proxy-i18n-gcpva.byteoversea.net^
+||quic-tiktok-proxy-i18n-gcpva.byteoversea.net^
 ||qun.qzone.qq.com^
 ||quora.com^
 ||qwerxtkqnmbcjjymg.i.org^
@@ -4455,6 +4650,7 @@
 ||rt.i.org^
 ||rtb-us-west.linkedin.com^
 ||rtlog.musical.ly^
+||rtlog.tiktokv.com^
 ||ru-ru.facebook.com^
 ||ru.api.meetme.com^
 ||ru.datememe.com^
@@ -4503,6 +4699,7 @@
 ||s1.yy.com^
 ||s10.photo.store.qq.com^
 ||s16.tiktokcdn.com^
+||s20.tiktokcdn.com^
 ||s4w.cdn.skype.com^
 ||s5.photo.store.qq.com^
 ||s76.d.renren.com^
@@ -4594,6 +4791,7 @@
 ||scontent-a.xx.fbcdn.net^
 ||scontent-ams.cdninstagram.com^
 ||scontent-ams.xx.fbcdn.net^
+||scontent-ams2-1.cdninstagram.com^
 ||scontent-ams3-1.cdninstagram.com^
 ||scontent-ams4-1.cdninstagram.com^
 ||scontent-amt2-1.cdninstagram.com^
@@ -4605,6 +4803,7 @@
 ||scontent-atl.cdninstagram.com^
 ||scontent-atl.xx.fbcdn.net^
 ||scontent-atl3-1.cdninstagram.com^
+||scontent-atl3-2.cdninstagram.com^
 ||scontent-b-ams.cdninstagram.com^
 ||scontent-b-ams.xx.fbcdn.net^
 ||scontent-b-amt.cdninstagram.com^
@@ -4670,6 +4869,7 @@
 ||scontent-bom1-1.cdninstagram.com^
 ||scontent-bom1-1.xx.fbcdn.net^
 ||scontent-bos3-1.cdninstagram.com^
+||scontent-bos5-1.cdninstagram.com^
 ||scontent-bru.cdninstagram.com^
 ||scontent-bru2-1.cdninstagram.com^
 ||scontent-c.xx.fbcdn.net^
@@ -4678,6 +4878,9 @@
 ||scontent-cdg.xx.fbcdn.net^
 ||scontent-cdg2-1.cdninstagram.com^
 ||scontent-cdg2-1.xx.fbcdn.net^
+||scontent-cdg4-1.cdninstagram.com^
+||scontent-cdg4-2.cdninstagram.com^
+||scontent-cdg4-3.cdninstagram.com^
 ||scontent-cdt.cdninstagram.com^
 ||scontent-cdt1-1.cdninstagram.com^
 ||scontent-cdt1-1.xx.fbcdn.net^
@@ -4686,6 +4889,7 @@
 ||scontent-cph2-1.cdninstagram.com^
 ||scontent-d.xx.fbcdn.net^
 ||scontent-del1-1.cdninstagram.com^
+||scontent-den2-1.cdninstagram.com^
 ||scontent-den4-1.cdninstagram.com^
 ||scontent-dft4-1.cdninstagram.com^
 ||scontent-dft4-2.cdninstagram.com^
@@ -4707,12 +4911,15 @@
 ||scontent-for1-1.cdninstagram.com^
 ||scontent-fra.xx.fbcdn.net^
 ||scontent-fra3-1.cdninstagram.com^
+||scontent-fra3-2.cdninstagram.com^
+||scontent-fra5-1.cdninstagram.com^
+||scontent-fra5-2.cdninstagram.com^
 ||scontent-frt.cdninstagram.com^
 ||scontent-frt3-1.cdninstagram.com^
 ||scontent-frt3-1.xx.fbcdn.net^
 ||scontent-frt3-2.cdninstagram.com^
 ||scontent-frt3-2.xx.fbcdn.net^
-||scontent-frx.cdninstagram.com	^
+||scontent-frx.cdninstagram.com^
 ||scontent-frx5-1.cdninstagram.com^
 ||scontent-frx5-1.xx.fbcdn.net^
 ||scontent-gig2-1.cdninstagram.com^
@@ -4731,9 +4938,11 @@
 ||scontent-hkg3-2.cdninstagram.com^
 ||scontent-hkg3-2.xx.fbcdn.net^
 ||scontent-hkt1-1.cdninstagram.com^
+||scontent-hou1-1.cdninstagram.com^
 ||scontent-iad.cdninstagram.com^
 ||scontent-iad3-1.cdninstagram.com^
 ||scontent-iad3-1.xx.fbcdn.net^
+||scontent-iad3-2.cdninstagram.com^
 ||scontent-icn1-1.cdninstagram.com^
 ||scontent-icn1-1.xx.fbcdn.net^
 ||scontent-itm1-1.cdninstagram.com^
@@ -4751,11 +4960,15 @@
 ||scontent-lga.xx.fbcdn.net^
 ||scontent-lga3-1.cdninstagram.com^
 ||scontent-lga3-1.xx.fbcdn.net^
+||scontent-lga3-2.cdninstagram.com^
 ||scontent-lhr.cdninstagram.com^
 ||scontent-lhr.xx.fbcdn.net^
 ||scontent-lhr3-1.cdninstagram.com^
 ||scontent-lhr3-1.xx.fbcdn.net^
+||scontent-lhr6-1.cdninstagram.com^
+||scontent-lhr6-2.cdninstagram.com^
 ||scontent-lhr8-1.cdninstagram.com^
+||scontent-lhr8-2.cdninstagram.com^
 ||scontent-lht6-1.cdninstagram.com^
 ||scontent-lht6-1.xx.fbcdn.net^
 ||scontent-lim1-1.cdninstagram.com^
@@ -4785,6 +4998,8 @@
 ||scontent-ord.cdninstagram.com^
 ||scontent-ord.xx.fbcdn.net^
 ||scontent-ord1-1.cdninstagram.com^
+||scontent-ord5-1.cdninstagram.com^
+||scontent-ord5-2.cdninstagram.com^
 ||scontent-ort2-1.cdninstagram.com^
 ||scontent-ort2-2.cdninstagram.com^
 ||scontent-otp1-1.cdninstagram.com^
@@ -4973,9 +5188,11 @@
 ||scontent.fwbw1-1.fna.fbcdn.net^
 ||scontent.fybz2-2.fna.fbcdn.net^
 ||scontent.fymy1-2.fna.fbcdn.net^
+||scontent.whatsapp.net^
 ||scontent.xx.fbcdn.net^
 ||scotiabank.m.facebook.com^
 ||screen.weibo.com^
+||sdfp-va.tiktokv.com^
 ||sdk.e.qq.com^
 ||sdkapp.uve.weibo.com^
 ||sdkreport.gslb.yy.com^
@@ -4986,6 +5203,7 @@
 ||search.map.qq.com^
 ||search.myspace.com^
 ||search.twitter.com^
+||search16-normal-useast2a.tiktokv.com^
 ||search2.twitter.com^
 ||searchresults.myspace.com^
 ||searchservice.myspace.com^
@@ -5028,6 +5246,14 @@
 ||sexy-singles.meetup.com^
 ||sf-tb-sg.ibytedtos.com^
 ||sf1-hrc20.hob3.sfo1.snapfish.com^
+||sf1-ttcdn-tos.pstatp.com^
+||sf16-ttcdn-tos.ipstatp.com^
+||sf53-sg.tiktokcdn.com^
+||sf53-va.tiktokcdn.com^
+||sf6-ttcdn-tos.pstatp.com^
+||sf77-sg.tiktokcdn.com^
+||sf77-va.tiktokcdn.com^
+||sf77-webcast.tiktokcdn.com^
 ||sfint1.qa.snapfish.com^
 ||sfint4.qa.snapfish.com^
 ||sfmir1.qa.snapfish.com^
@@ -5040,6 +5266,7 @@
 ||sg.linkedin.com^
 ||sg.weibo.com^
 ||sgali3.l.byteoversea.net^
+||sgsnssdk.com^
 ||sgzg.gamebbs.renren.com^
 ||sh.taotao.qq.com^
 ||shaildhar-expresswifi-com.shaildhar.in.expresswifi.com^
@@ -5054,6 +5281,7 @@
 ||share.media.aws.viber.com^
 ||share.pluso.ru^
 ||share.renren.com^
+||share.snapchat.com^
 ||share.viber.com^
 ||share.weheartit.com^
 ||share.yandex.net^
@@ -5071,6 +5299,7 @@
 ||shorte.st^
 ||shot.badoo.com^
 ||shouyou.renren.com^
+||shows.snapchat.com^
 ||si.linkedin.com^
 ||signer.periscope.tv^
 ||signin.lms.linkedin.com^
@@ -5091,9 +5320,11 @@
 ||sk.pinterest.com^
 ||sketch.kik.com^
 ||ski.m.facebook.com^
+||sks.snapchat.com^
 ||skyeng.slack.com^
 ||skype.com^
 ||skyrock.com^
+||sl-si.facebook.com^
 ||slack.com^
 ||slashdot.org^
 ||smallbiz.meetup.com^
@@ -5111,11 +5342,15 @@
 ||smtp.pop.pop.m.vk.com^
 ||smtp.pop.pop.vk.com^
 ||smusic.app.wechat.com^
+||snap.licdn.com^
+||snapchat-com^
 ||snapchat-payments-gateway.snapchat.com^
+||snapchat.com^
 ||snapfish.com^
 ||snappublisher.snapchat.com^
 ||snaptu-d-shv-05-frc3.facebook.com^
 ||snaptu-d-shv-10-frc1.facebook.com^
+||snaptu-d.facebook.com^
 ||snaptu-mini.facebook.com^
 ||snaptu-p1.facebook.com^
 ||snaptu-p2.facebook.com^
@@ -5237,6 +5472,7 @@
 ||staff.tumblr.com^
 ||stage.internet.org^
 ||staging-commerce.pinterest.com^
+||staging-us-east1-aws.api.snapchat.com^
 ||staging.app-analytics.snapchat.com^
 ||staging.internet.org^
 ||staging.joinclubhouse.com^
@@ -5250,9 +5486,13 @@
 ||stat.weheartit.com^
 ||stat2.web.yy.com^
 ||static-ak.facebook.com^
+||static-akam.licdn.com^
+||static-azur.licdn.com^
+||static-ecst.licdn.com^
 ||static-eu2.badoo.com^
 ||static-eu3.badoo.com^
 ||static-eu4.badoo.com^
+||static-od.licdn.com^
 ||static.0.facebook.com^
 ||static.addtoany.com^
 ||static.ads-twitter.com^
@@ -5278,6 +5518,7 @@
 ||static.medium.com^
 ||static.reddit.com^
 ||static.redditgifts.com^
+||static.snapchat.com^
 ||static.snapfish.com^
 ||static.tagged.com^
 ||static.thefacebook.com^
@@ -5310,6 +5551,7 @@
 ||store.snapfish.com^
 ||stories.twitter.com^
 ||stormberg.m.facebook.com^
+||story.snapchat.com^
 ||strapi.reddit.com^
 ||stream.meetme.com^
 ||stream.meetup.com^
@@ -5340,6 +5582,7 @@
 ||support.internet.org^
 ||support.musical.ly^
 ||support.pinterest.com^
+||support.snapchat.com^
 ||support.snapfish.com^
 ||support.tagged.com^
 ||support.twitter.com^
@@ -5368,9 +5611,11 @@
 ||syyy.yy.com^
 ||syzs.qq.com^
 ||t.co^
+||t.snapchat.com^
 ||t.snapfish.com^
 ||t.vk.com^
 ||ta.linkedin.com^
+||tableau.thefacebook.com^
 ||taboolasyndication.com^
 ||tag-gateway-use1.meetme.com^
 ||tagged.com^
@@ -5460,6 +5705,7 @@
 ||tempur.i.org^
 ||terms.line.me^
 ||terms2.line.me^
+||test-ads.tiktok.com^
 ||test.imo.im^
 ||testdrive.kik.com^
 ||testflight.joinclubhouse.com^
@@ -5482,9 +5728,11 @@
 ||the-place-of-quotations.skyrock.com^
 ||the.internet.org^
 ||the9th.slack.com^
+||thefacebook.com^
 ||thefullwik.i.org^
 ||theia.i.org^
 ||there.plus.google.com^
+||threads.net^
 ||tiasdk.app.wechat.com^
 ||tibbdamour.skyrock.com^
 ||tieba.baidu.com^
@@ -5494,11 +5742,43 @@
 ||tikona.in.xwf.internet.org^
 ||tikonaqa.in.expresswifi.com^
 ||tikonaqa.in.xwf.internet.org^
+||tiktok-lb-alisg.byteoversea.net^
+||tiktok-lb-maliva.byteoversea.net^
+||tiktok-lb-texas.useast5.byteoversea.net.byteigtm.com^
+||tiktok-platform-lb-alisg.byteoversea.net^
+||tiktok-platform-lb-maliva.byteoversea.net^
 ||tiktok.com^
+||tiktok.in^
 ||tiktok.org^
 ||tiktokcdn-com.akamaized.net^
+||tiktokcdn-eu.com^
+||tiktokcdn-eu.net^
+||tiktokcdn-in.com^
+||tiktokcdn-us.com^
+||tiktokcdn-us.com.atomile.com^
+||tiktokcdn-us.com.c.worldfcdn2.com^
 ||tiktokcdn.com^
+||tiktokcdn.com.atomile.com^
+||tiktokcdn.com.c.bytefcdn-oversea.com^
+||tiktokcdn.com.c.bytefcdn-ttpeu.com^
+||tiktokcdn.com.c.bytetcdn.com^
+||tiktokcdn.com.c.worldfcdn.com^
+||tiktokcdn.com.qlivecdn.com^
+||tiktokcdn.com.rocket-cdn.com^
+||tiktokcdn.com.tlivepush.com^
+||tiktokd.org^
+||tiktokglobalshop.com^
+||tiktokglobalshopv.com^
+||tiktokmusic.app^
+||tiktokshop.com^
+||tiktokstaticb.com^
 ||tiktokv.com^
+||tiktokv.com.c.bytefcdn-oversea.com^
+||tiktokv.com.c.worldfcdn.com^
+||tiktokv.com.c.worldfcdn2.com^
+||tiktokv.eu^
+||tiktokv.us^
+||tiktokw.us^
 ||tile.kik.com^
 ||timbrasil.m.facebook.com^
 ||time.qzone.qq.com^
@@ -5515,6 +5795,7 @@
 ||tjkathastaneler.i.org^
 ||tl-ph.facebook.com^
 ||tl.linkedin.com^
+||tlivecdn.com^
 ||tm.linkedin.com^
 ||tn.linkedin.com^
 ||tn.periscope.tv^
@@ -5539,11 +5820,13 @@
 ||tools.3g.qq.com^
 ||tools.gotinder.com^
 ||top.weibo.com^
+||topic-sticker-vending.snapchat.com^
 ||topsy.com^
 ||torrentap.i.org^
 ||touch.facebook.com^
 ||touch.meetme.com^
 ||touch.www.linkedin.com^
+||tpop-api.twitter.com^
 ||tps.gamebbs.qq.com^
 ||tr-tr.facebook.com^
 ||tr-tr.freebasics.com^
@@ -5559,9 +5842,11 @@
 ||tr.pinterest.com^
 ||tr.profile.meetme.com^
 ||tr.reddit.com^
+||tr.snapchat.com^
 ||tr.ssl.meetme.com^
 ||tr.swarmapp.com^
 ||tr.www.meetme.com^
+||tr6.snapchat.com^
 ||training.linkedin.com^
 ||trans.renren.com^
 ||translate-dev.whatsapp.com^
@@ -5584,6 +5869,14 @@
 ||tsel.freebasics.com^
 ||tsel.internet.org^
 ||tt.reddit.com^
+||ttapis.com^
+||ttdns2.com^
+||ttlivecdn.com^
+||ttlivecdn.com.c.bytefcdn-oversea.com^
+||ttlivecdn.com.c.worldfcdn.com^
+||ttoversea.net^
+||ttoverseaus.net^
+||ttwstatic.com^
 ||tui.weibo.com^
 ||tulong.linkedin.com^
 ||tumblr.com^
@@ -5599,9 +5892,13 @@
 ||tweetdeck.twitter.com^
 ||tweetmeme.com^
 ||twemoji.twitter.com^
+||twimg.twitter.map.fastly.net^
 ||twimg0-0.akamaihd.net^
 ||twitbuttons.com^
+||twitter.co^
 ||twitter.com^
+||twitter.de^
+||twitter.map.fastly.net^
 ||twittercounter.com^
 ||twitthis.com^
 ||tz-gem-unicore-io.0.freebasics.com^
@@ -5618,6 +5915,7 @@
 ||uic.login.skype.com^
 ||uiwalumn.i.org^
 ||uj2myfjsvf2.posts.106298620457610449826.plus.google.com^
+||uk-ua.facebook.com^
 ||uk.linkedin.com^
 ||uk.myspace.com^
 ||uk.pinterest.com^
@@ -5663,7 +5961,15 @@
 ||uretkenakademi.slack.com^
 ||urlp.asm.skype.com^
 ||us-central1-gcp.api.snapchat.com^
+||us-east-1-bitmoji.api.snapchat.com^
 ||us-east-1.dc.ads.linkedin.com^
+||us-east1-aws-acc-test.api.snapchat.com^
+||us-east1-aws-acc.api.snapchat.com^
+||us-east1-aws-cf.api.snapchat.com^
+||us-east1-aws.api.snapchat.com^
+||us-east1-aws.gateway.snapchat.com^
+||us-east4-gcp-ineg.api.snapchat.com^
+||us-east4-gcp.api.snapchat.com^
 ||us-en.freebasics.com^
 ||us-en.internet.org^
 ||us-turn.badoo.com^
@@ -5674,6 +5980,10 @@
 ||us.weibo.com^
 ||us1.badoo.com^
 ||usautoparts.slack.com^
+||usc1-gcp-v61.api.snapchat.com^
+||usc1-gcp-v62.api.snapchat.com^
+||use4-gcp-v4.api.snapchat.com^
+||use4-gcp-v6.api.snapchat.com^
 ||user-yijian-preview.yy.com^
 ||user.qzone.qq.com^
 ||users.qzone.qq.com^
@@ -5695,9 +6005,16 @@
 ||v.whatsapp.net^
 ||v16-tiktokcdn-com.akamaized.net^
 ||v16.musical.ly^
+||v16m.tiktokcdn-eu.com^
+||v19.tiktokcdn.com^
 ||v2008.qzone.qq.com^
+||v39.tiktokcdn-eu.com^
 ||v4help.facebook.com^
 ||v5.ask.fm^
+||v51.tiktokcdn.com^
+||v53.tiktokcdn.com^
+||v58.tiktokcdn-eu.com^
+||v77.tiktokcdn.com^
 ||vaneu.vk.com^
 ||vdisk.weibo.com^
 ||veb.telegram.org^
@@ -5705,6 +6022,7 @@
 ||venus-1.web.telegram.org^
 ||venus.web.telegram.org^
 ||verification-va.byteoversea.com^
+||verification-va.tiktokv.com^
 ||verification.twitter.com^
 ||verified.weibo.com^
 ||vesta-1.web.telegram.org^
@@ -5787,6 +6105,7 @@
 ||video.fvit1-1.fna.fbcdn.net^
 ||video.tagged.com^
 ||video.twitter.com^
+||video.twitter.map.fastly.net^
 ||video.wechat.com^
 ||video.weibo.com^
 ||video.xx.fbcdn.net^
@@ -5847,6 +6166,9 @@
 ||w1.internet.org^
 ||w1.web.whatsapp.com^
 ||w2.web.whatsapp.com^
+||w3-reporting-csp.reddit.com^
+||w3-reporting-nel.reddit.com^
+||w3-reporting.reddit.com^
 ||w3.freebasics.com^
 ||w3.internet.org^
 ||w3.web.whatsapp.com^
@@ -5881,17 +6203,22 @@
 ||we.telegram.org^
 ||weareher.com^
 ||wearentus.slack.com^
+||web-chat-e2ee.facebook.com^
+||web-fallback.facebook.com^
 ||web.beta.facebook.com^
 ||web.facebook.com^
 ||web.im.weibo.com^
 ||web.periscope.tv^
 ||web.skype.com^
+||web.snapchat.com^
 ||web.telegram.org^
 ||web.wechat.com^
 ||web.whatsapp.com^
 ||web1.wechat.com^
 ||web2.wechat.com^
 ||web5325.internet.org^
+||webattachments.snapchat.com^
+||webcast16-normal-c-useast2a.tiktokv.com^
 ||webdav.facebook.com^
 ||webde.badoo.com^
 ||webdisk.internet.org^
@@ -5982,6 +6309,7 @@
 ||whatsapp-cdn-shv-01-vie1.fbcdn.net^
 ||whatsapp-cdn-shv-02-sin6.fbcdn.net^
 ||whatsapp.com^
+||whatsapp.net^
 ||white.instagram.com^
 ||white.ish.instagram.com^
 ||whm.freebasics.com^
@@ -6062,6 +6390,7 @@
 ||www-google-co-zm.0.freebasics.com^
 ||www-naij-com.0.freebasics.com^
 ||www-pinterest-com-edgekey-net.pinterest.com^
+||www-src.linkedin.com^
 ||www.0.facebook.com^
 ||www.0.freebasics.com^
 ||www.0.mx.freebasics.com^
@@ -6188,6 +6517,7 @@
 ||www.salesconnect.linkedin.com^
 ||www.skyrock.com^
 ||www.smallbusiness.linkedin.com^
+||www.snapchat.com^
 ||www.snapfish.com^
 ||www.start.internet.org^
 ||www.static.ak.connect.facebook.com^
@@ -6201,8 +6531,10 @@
 ||www.tagged.com^
 ||www.telegram.org^
 ||www.the-dots.com^
+||www.threads.net^
 ||www.tieba.baidu.com^
 ||www.tiktok.com^
+||www.tiktok.in^
 ||www.tumblr.com^
 ||www.twitter.com^
 ||www.university.linkedin.com^
@@ -6223,6 +6555,7 @@
 ||www.www.vk.com^
 ||www.www.ziraat.internet.org^
 ||www.wwww.plus.google.com^
+||www.x.com^
 ||www.yg4wm58qb.internet.org^
 ||www.ynet.co.i.org^
 ||www.yy.com^
@@ -6277,6 +6610,7 @@
 ||www94.imo.im^
 ||www97.imo.im^
 ||www99.imo.im^
+||wwwfacebook.com^
 ||wwwl.whatsapp.com^
 ||wwwo.plus.google.com^
 ||wwww.facebook.com^
@@ -6284,6 +6618,7 @@
 ||wwww.plus.google.com^
 ||x-cheetah-girls-3-x.skyrock.com^
 ||x-limit-stunt.skyrock.com^
+||x.com^
 ||x.facebook.com^
 ||x.myspace.com^
 ||x.myspacecdn.com^
@@ -6314,6 +6649,9 @@
 ||xing-share.com^
 ||xkuctmh.i.org^
 ||xlog-va.byteoversea.com^
+||xlog-va.tiktokv.com^
+||xlog.tiktokv.com^
+||xlog.tiktokv.com.edgesuite.net^
 ||xmpp.odnoklassniki.ru^
 ||xn--h1avi.telegram.org^
 ||xp.reddit.com^
@@ -6454,6 +6792,7 @@
 ||z-m-external.fceb1-1.fna.fbcdn.net^
 ||z-m-fbcdn-mini-shv-01-ord1.fbcdn.net^
 ||z-m-fbcdn-shv-01-frt3.fbcdn.net^
+||z-m-gateway.facebook.com^
 ||z-m-graph.facebook.com^
 ||z-m-graph.fbsbx.com^
 ||z-m-lookaside.fbsbx.com^
@@ -6958,7 +7297,7 @@
 ||z-p42-scontent-waw1-1.cdninstagram.com^
 ||z-p42-scontent-yyz1-1.cdninstagram.com^
 ||z-p42-scontent.cdninstagram.com^
-||z-p42-static.cdninstagram.com	^
+||z-p42-static.cdninstagram.com^
 ||z-p42.graph.instagram.com^
 ||z-p42.i.instagram.com^
 ||z-p42.maps.instagram.com^

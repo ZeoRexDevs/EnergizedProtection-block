@@ -25,12 +25,12 @@
 # Description: Social Sites and Apps Blocking.
 # Author: Rokib Hasan Sagar @rokibhasansagar
 # Format: hosts
-# Version: 23.04.095
-# Release: 095
-# Entries: 6,948
+# Version: 24.05.138
+# Release: 138
+# Entries: 7,287
 # Pack Code: EX50C14L-P
 # License: MIT, https://energized.pro/license
-# Updated: Wed, 05 Apr 23 18:12:43 UTC
+# Updated: Fri, 17 May 24 02:34:05 UTC
 # RAW: https://block.energized.pro/extensions/social/formats/hosts.txt
 # --------------------------------------------
 #
@@ -163,6 +163,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 123456.qzone.qq.com
 0.0.0.0 1259721398.qzone.qq.com
 0.0.0.0 126-trouter-cus-a.drip.trouter.skype.com
+0.0.0.0 127.0.0.7 p19-sign.tiktokcdn-us.com
 0.0.0.0 129-trouter-cus-a.drip.trouter.skype.com
 0.0.0.0 131-trouter-neu-a.drip.trouter.skype.com
 0.0.0.0 1316548323.qzone.qq.com
@@ -191,6 +192,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 2013.twitter.com
 0.0.0.0 2014.renren.com
 0.0.0.0 2014.twitter.com
+0.0.0.0 2015.twitter.com
 0.0.0.0 21622442.qzone.qq.com
 0.0.0.0 220-226-188-56.0.freebasics.com
 0.0.0.0 223-trouter-weu-a.drip.trouter.skype.com
@@ -316,6 +318,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 about.twitter.com
 0.0.0.0 abrahamhicks.meetup.com
 0.0.0.0 abs.twimg.com
+0.0.0.0 abtest-sg-tiktok.byteoversea.com
 0.0.0.0 abtest-va-tiktok.byteoversea.com
 0.0.0.0 abtest.api.viber.com
 0.0.0.0 abtesting.yy.com
@@ -331,6 +334,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 accountpage.line.me
 0.0.0.0 accounts-oauth.pinterest.com
 0.0.0.0 accounts.pinterest.com
+0.0.0.0 accounts.reddit.com
+0.0.0.0 accounts.snapchat.com
 0.0.0.0 accounts.snapfish.com
 0.0.0.0 acs.i.org
 0.0.0.0 acs.plus.google.com
@@ -363,10 +368,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 admin.internet.org
 0.0.0.0 admin.periscope.tv
 0.0.0.0 admin.wechat.com
+0.0.0.0 ads-api.twitter.com
 0.0.0.0 ads-bidder-api.twitter.com
 0.0.0.0 ads-d.integration.viber.com
 0.0.0.0 ads-d.viber.com
 0.0.0.0 ads-latest.pinterest.com
+0.0.0.0 ads-twitter.com
 0.0.0.0 ads.app.wechat.com
 0.0.0.0 ads.cdn.viber.com
 0.0.0.0 ads.facebook.com
@@ -374,11 +381,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 ads.linkedin.com
 0.0.0.0 ads.pinterest.com
 0.0.0.0 ads.reddit.com
+0.0.0.0 ads.tiktok.com
 0.0.0.0 ads.twitter.com
 0.0.0.0 ads.viber.com
 0.0.0.0 ads.wechat.com
 0.0.0.0 adserv.kiwibox.com
 0.0.0.0 adserving.plus.google.com
+0.0.0.0 adsmanager.facebook.com
 0.0.0.0 adv.odnoklassniki.ru
 0.0.0.0 advertisers.viber.com
 0.0.0.0 advertising.snapchat.com
@@ -722,6 +731,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 amt.flickr.com
 0.0.0.0 an.facebook.com
 0.0.0.0 analytics.pinterest.com
+0.0.0.0 analytics.tiktok.com
 0.0.0.0 analytics.twitter.com
 0.0.0.0 and.come.view-pictures.plus.google.com
 0.0.0.0 android.bugly.qq.com
@@ -751,6 +761,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 api-0-4-5.twitter.com
 0.0.0.0 api-0-4-6.twitter.com
 0.0.0.0 api-0-4-7.twitter.com
+0.0.0.0 api-0-4-8.twitter.com
 0.0.0.0 api-0-5-0.twitter.com
 0.0.0.0 api-1-0-0.twitter.com
 0.0.0.0 api-2-0-0.twitter.com
@@ -771,6 +782,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 api-33-0-0.twitter.com
 0.0.0.0 api-34-0-0.twitter.com
 0.0.0.0 api-35-0-0.twitter.com
+0.0.0.0 api-36-0-0.twitter.com
 0.0.0.0 api-37-0-0.twitter.com
 0.0.0.0 api-38-0-0.twitter.com
 0.0.0.0 api-39-0-0.twitter.com
@@ -784,9 +796,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 api-47-0-0.twitter.com
 0.0.0.0 api-dev.internet.org
 0.0.0.0 api-dev.musical.ly
+0.0.0.0 api-kit.snapchat.com
 0.0.0.0 api-pinterest-com-eip-akadns-net.pinterest.com
 0.0.0.0 api-rangers.line.me
 0.0.0.0 api-read.facebook.com
+0.0.0.0 api-stream.twitter.com
 0.0.0.0 api-test.twitter.com
 0.0.0.0 api.ak.facebook.com
 0.0.0.0 api.aps.skype.com
@@ -826,6 +840,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 api.teams.skype.com
 0.0.0.0 api.telegram.org
 0.0.0.0 api.the-dots.com
+0.0.0.0 api.tiktokv.com
 0.0.0.0 api.today.line.me
 0.0.0.0 api.tumblr.com
 0.0.0.0 api.tw.weibo.com
@@ -836,6 +851,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 api.weheartit.com
 0.0.0.0 api.weibo.com
 0.0.0.0 api.whatsapp.com
+0.0.0.0 api16.tiktokv.com
 0.0.0.0 api2-1.musical.ly
 0.0.0.0 api2-t1.musical.ly
 0.0.0.0 api2-t2.musical.ly
@@ -855,6 +871,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 apli.ask.fm
 0.0.0.0 apmi.ask.fm
 0.0.0.0 apo.ask.fm
+0.0.0.0 app-analytics-v2.snapchat.com
 0.0.0.0 app-analyticsv2.snapchat.com
 0.0.0.0 app.3g.yy.com
 0.0.0.0 app.facebook.com
@@ -862,6 +879,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 app.pinterest.com
 0.0.0.0 app.plus.google.com
 0.0.0.0 app.pointdrive.linkedin.com
+0.0.0.0 app.snapchat.com
 0.0.0.0 app.tweet.twitter.com
 0.0.0.0 app.vk.com
 0.0.0.0 app.wechat.com
@@ -875,6 +893,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 appi.ask.fm
 0.0.0.0 appletv.flickr.com
 0.0.0.0 applog.musical.ly
+0.0.0.0 applog.tiktokv.com
 0.0.0.0 applogin.expresswifi.com
 0.0.0.0 apply.wechat.com
 0.0.0.0 appmonitortest.biz.weibo.com
@@ -902,6 +921,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 asafziv.sb.freebasics.com
 0.0.0.0 ash1.fbcdn.net
 0.0.0.0 asia-red.plus.google.com
+0.0.0.0 asia-southeast1-gcp.api.snapchat.com
 0.0.0.0 asiaa-time.skyrock.com
 0.0.0.0 asian.meetup.com
 0.0.0.0 asiste.pemex.com.internet.org
@@ -966,6 +986,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 avanzar.slack.com
 0.0.0.0 avatar.skype.com
 0.0.0.0 away.vk.com
+0.0.0.0 aws-cf.api.snapchat.com
+0.0.0.0 aws-proxy-gcp.api.snapchat.com
+0.0.0.0 aws.api.snapchat.com
+0.0.0.0 aws.duplex.snapchat.com
 0.0.0.0 axiata.m.facebook.com
 0.0.0.0 axis.internet.org
 0.0.0.0 axis.m.facebook.com
@@ -1062,6 +1086,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 bigbrother.reddit.com
 0.0.0.0 bigzipfiles.facebook.com
 0.0.0.0 biotech.meetup.com
+0.0.0.0 bitmoji.api.snapchat.com
 0.0.0.0 bitnam.i.org
 0.0.0.0 biz.wechat.com
 0.0.0.0 biz.weibo.com
@@ -1160,6 +1185,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 buttons.reddit.com
 0.0.0.0 buy.line.me
 0.0.0.0 buzzbuttons.com
+0.0.0.0 byteglb.com
 0.0.0.0 c-broker-asse-01.broker.skype.com
 0.0.0.0 c-broker-euwe-01.broker.skype.com
 0.0.0.0 c.facebook.com
@@ -1167,7 +1193,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 c.ish.instagram.com
 0.0.0.0 c.meetup.com
 0.0.0.0 c.myspace.com
-0.0.0.0 c.ns.cdninstagram.com	
+0.0.0.0 c.ns.cdninstagram.com
 0.0.0.0 c.thumbs.redditmedia.com
 0.0.0.0 c.tieba.baidu.com
 0.0.0.0 c.weibo.com
@@ -1234,6 +1260,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 cdn.medium.com
 0.0.0.0 cdn.syndication.twimg.com
 0.0.0.0 cdn.syndication.twitter.com
+0.0.0.0 cdn.whatsapp.net
 0.0.0.0 cdn.wibiya.com
 0.0.0.0 cdninstagram.com
 0.0.0.0 celcom.rastream.com.internet.org
@@ -1244,6 +1271,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ceroc.meetup.com
 0.0.0.0 certification.linkedin.com
 0.0.0.0 cf.myspace.com
+0.0.0.0 cf.perf.linkedin.com
 0.0.0.0 cfc.internet.org
 0.0.0.0 cftn.i.org
 0.0.0.0 cgi.connect.qq.com
@@ -1305,6 +1333,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 chat-gateway288-prod.chat.snapchat.com
 0.0.0.0 chat-gateway393-prod.chat.snapchat.com
 0.0.0.0 chat-gateway397-prod.chat.snapchat.com
+0.0.0.0 chat.cdn.whatsapp.net
 0.0.0.0 chat.myspace.com
 0.0.0.0 chat.tagged.com
 0.0.0.0 chat.whatsapp.com
@@ -1331,6 +1360,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 cl.pinterest.com
 0.0.0.0 classifieds.myspace.com
 0.0.0.0 click.e.twitter.com
+0.0.0.0 click.snapchat.com
 0.0.0.0 clientad.yy.com
 0.0.0.0 clientconfig.yy.com
 0.0.0.0 clientmetrics-augmentum.kik.com
@@ -1432,6 +1462,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 creator-mag.line.me
 0.0.0.0 creator-static.line.me
 0.0.0.0 creator.line.me
+0.0.0.0 creators.facebook.com
 0.0.0.0 credit-account.staging.viber.com
 0.0.0.0 criticalmass.meetup.com
 0.0.0.0 cryptocatz.slack.com
@@ -1499,6 +1530,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 datememe.com
 0.0.0.0 davivienda.m.facebook.com
 0.0.0.0 day-trips.meetup.com
+0.0.0.0 dc-api.twitter.com
 0.0.0.0 dc.ads.linkedin.com
 0.0.0.0 dc.i.org
 0.0.0.0 dczia.slack.com
@@ -1593,6 +1625,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 digi.freebasics.com
 0.0.0.0 digitalart.meetup.com
 0.0.0.0 digitalfuelmarketing.slack.com
+0.0.0.0 direct-response-gcp.api.snapchat.com
 0.0.0.0 direct.musical.ly
 0.0.0.0 direct.static.tagged.com
 0.0.0.0 direct.www.tagged.com
@@ -1602,6 +1635,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 discovery-aus.snapfish.com
 0.0.0.0 discovery.snapfish.com
 0.0.0.0 distances.i.org
+0.0.0.0 dit.whatsapp.net
 0.0.0.0 dixonscarphone.m.facebook.com
 0.0.0.0 dj.captcha.qq.com
 0.0.0.0 dj.renren.com
@@ -1619,6 +1653,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 dm.bytedance.com
 0.0.0.0 dm.m.facebook.com
 0.0.0.0 dm.reddit.com
+0.0.0.0 dm16-alisg.tiktokv.com
+0.0.0.0 dm16-useast1a.tiktokv.com
+0.0.0.0 dm16-useast2a.tiktokv.com
+0.0.0.0 dm16-va.tiktokv.com
+0.0.0.0 dm16.tiktokv.com
+0.0.0.0 dms-akam.licdn.com
+0.0.0.0 dms.licdn.com
 0.0.0.0 dnet.expresswifi.com
 0.0.0.0 dns.facebook.com
 0.0.0.0 dns.internet.org
@@ -1667,6 +1708,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 dtac.0.co.th.0.freebasics.com
 0.0.0.0 dtac.freebasics.com
 0.0.0.0 dualstack.pinterest.map.fastly.net
+0.0.0.0 dualstack.twimg.twitter.map.fastly.net
+0.0.0.0 dualstack.video.twitter.map.fastly.net
 0.0.0.0 dw.com.0.freebasics.com
 0.0.0.0 dyi.www.instagram.com
 0.0.0.0 dyn.web.whatsapp.com
@@ -1964,6 +2007,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 edge-sonar-shv-17-prn1.fbcdn.net
 0.0.0.0 edge-sonar-shv-18-prn1.fbcdn.net
 0.0.0.0 edge-star-shv-12-frc3.facebook.com
+0.0.0.0 edge-stun.facebook.com
 0.0.0.0 edge-video-shv-01-ams2.fbcdn.net
 0.0.0.0 edge-video-shv-01-ams3.fbcdn.net
 0.0.0.0 edge-video-shv-01-arn2.fbcdn.net
@@ -2096,6 +2140,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 email.weheartit.com
 0.0.0.0 emails.snapfish.com
 0.0.0.0 embed.periscope.tv
+0.0.0.0 embed.reddit.com
 0.0.0.0 embed.tumblr.com
 0.0.0.0 embedr.flickr.com
 0.0.0.0 emlclick.newsletter.swarmapp.com
@@ -2167,6 +2212,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 eu2.badoo.com
 0.0.0.0 eul.badoo.com
 0.0.0.0 eurok.i.org
+0.0.0.0 europe-west1-gcp.api.snapchat.com
 0.0.0.0 eus1-api.asm.skype.com
 0.0.0.0 event-web.line.me
 0.0.0.0 event.weibo.com
@@ -2178,6 +2224,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 eweb.telegram.org
 0.0.0.0 eweibo.dpool.weibo.com
 0.0.0.0 exhenta.i.org
+0.0.0.0 exp1.www.linkedin.com
+0.0.0.0 exp2.www.linkedin.com
+0.0.0.0 exp3.www.linkedin.com
 0.0.0.0 explore.flickr.com
 0.0.0.0 expresswifi.com
 0.0.0.0 external-cdt1-1.xx.fbcdn.net
@@ -2230,10 +2279,20 @@ ff02::3 ip6-allhosts
 0.0.0.0 fa.i.org
 0.0.0.0 facebook-studio.com
 0.0.0.0 facebook-web-clients.appspot.com
+0.0.0.0 facebook.at
 0.0.0.0 facebook.be
+0.0.0.0 facebook.ca
+0.0.0.0 facebook.co
+0.0.0.0 facebook.co.za
 0.0.0.0 facebook.com
+0.0.0.0 facebook.com.au
+0.0.0.0 facebook.com.br
+0.0.0.0 facebook.com.es
 0.0.0.0 facebook.com.facebook.com
+0.0.0.0 facebook.com.mx
+0.0.0.0 facebook.com.vn
 0.0.0.0 facebook.de
+0.0.0.0 facebook.design
 0.0.0.0 facebook.dk
 0.0.0.0 facebook.es
 0.0.0.0 facebook.fr
@@ -2242,8 +2301,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 facebook.it
 0.0.0.0 facebook.jp
 0.0.0.0 facebook.mx
+0.0.0.0 facebook.net
 0.0.0.0 facebook.nl
 0.0.0.0 facebook.no
+0.0.0.0 facebook.org
+0.0.0.0 facebook.pl
+0.0.0.0 facebook.ru
 0.0.0.0 facebook.se
 0.0.0.0 facebook.us
 0.0.0.0 fairview.internet.org
@@ -2317,6 +2380,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 fbcdn.net
 0.0.0.0 fbexternal-a.akamaihd.net
 0.0.0.0 fbjs.facebook.com
+0.0.0.0 fblite-p1.c10r.facebook.com
 0.0.0.0 fbsbx.com
 0.0.0.0 fbstatic-a.akamaihd.net
 0.0.0.0 fbstatic.net
@@ -2454,7 +2518,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 friends.meetme.com
 0.0.0.0 friends.myspace.com
 0.0.0.0 friends.plus.google.com
+0.0.0.0 frontier-va.tiktokv.com
 0.0.0.0 frontier.musical.ly
+0.0.0.0 frontier.tiktokv.com
 0.0.0.0 ftp.freebasics.com
 0.0.0.0 ftp.internet.org
 0.0.0.0 ftp.mx.freebasics.com
@@ -2463,7 +2529,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 fts.yy.com
 0.0.0.0 fullmetalalchimist724ed.skyrock.com
 0.0.0.0 fun-times.meetup.com
-0.0.0.0 fundingchoicesmessages.google.com
 0.0.0.0 fusionbase.qzone.qq.com
 0.0.0.0 g.i.org
 0.0.0.0 g.kiwibox.com
@@ -2495,7 +2560,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 gb.pinterest.com
 0.0.0.0 gbot.integrations.telegram.org
 0.0.0.0 gcore.game.i.org
+0.0.0.0 gcp.api.snapchat.com
 0.0.0.0 gdfgd.telegram.org
+0.0.0.0 gecko-sg.tiktokv.com
+0.0.0.0 gecko-va.tiktokv.com
+0.0.0.0 gecko-va.tiktokv.com.edgesuite.net
+0.0.0.0 gecko16-normal-c-useast1a.tiktokv.com
+0.0.0.0 gecko16-normal-c-useast2a.tiktokv.com
 0.0.0.0 gegabytes.game.i.org
 0.0.0.0 generalelectric.m.facebook.com
 0.0.0.0 geofilters-community-api.snapchat.com
@@ -2548,6 +2619,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 gp.reddit.com
 0.0.0.0 gpstream.mobi0.freebasics.com
 0.0.0.0 gq1.farm3.static.flickr.com
+0.0.0.0 gql-fed.reddit.com
+0.0.0.0 gql-realtime.reddit.com
 0.0.0.0 gql.reddit.com
 0.0.0.0 gr.linkedin.com
 0.0.0.0 gr.pinterest.com
@@ -2575,6 +2648,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 gtcp-dc.twitter.com
 0.0.0.0 gtcp-na.twitter.com
 0.0.0.0 gtcp.twitter.com
+0.0.0.0 gts.byteoversea.net
 0.0.0.0 gu.twimg.com
 0.0.0.0 guanjia.qzone.qq.com
 0.0.0.0 guce.flickr.com
@@ -2637,6 +2711,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 help.myspace.com
 0.0.0.0 help.periscope.tv
 0.0.0.0 help.pinterest.com
+0.0.0.0 help.snapchat.com
 0.0.0.0 help.snapfish.com
 0.0.0.0 help.twitter.com
 0.0.0.0 help.wechat.com
@@ -2676,6 +2751,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 hongbao.weibo.com
 0.0.0.0 honktechnologies.slack.com
 0.0.0.0 hooks.slack.com
+0.0.0.0 hoops.games.snapchat.com
 0.0.0.0 hootsuite.m.facebook.com
 0.0.0.0 horizon.twitter.com
 0.0.0.0 hoshinorom.i.org
@@ -2824,6 +2900,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ia57.odnoklassniki.ru
 0.0.0.0 ib.linkedin.com
 0.0.0.0 ib.qq.com
+0.0.0.0 ib.tiktokv.com
 0.0.0.0 ibytedtos.com
 0.0.0.0 ic2.qzone.qq.com
 0.0.0.0 ic2.s8.qzone.qq.com
@@ -2999,7 +3076,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 instagram-shv-17-prn1.fbcdn.net
 0.0.0.0 instagram-shv-18-prn1.fbcdn.net
 0.0.0.0 instagram.c10r.facebook.com
+0.0.0.0 instagram.c10r.instagram.com
+0.0.0.0 instagram.co
 0.0.0.0 instagram.com
+0.0.0.0 instagram.com.br
+0.0.0.0 instagram.de
+0.0.0.0 instagram.fr
+0.0.0.0 instagram.net
 0.0.0.0 instagramstatic-a.akamaihd.net
 0.0.0.0 instagramstatic-a.akamaihd.net.edgesuite.net
 0.0.0.0 instantview.telegram.org
@@ -3015,6 +3098,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 internet.org
 0.0.0.0 internet.telegram.org
 0.0.0.0 internetbatman.slack.com
+0.0.0.0 intg.snapchat.com
 0.0.0.0 intra.internet.org
 0.0.0.0 intranet.kik.com
 0.0.0.0 intro.linkedin.com
@@ -3048,6 +3132,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 is-is.facebook.com
 0.0.0.0 is.linkedin.com
 0.0.0.0 isecom.slack.com
+0.0.0.0 isnssdk.com
 0.0.0.0 isoda-action.yy.com
 0.0.0.0 isoda-follow.yy.com
 0.0.0.0 isoda-oss.yy.com
@@ -3081,6 +3166,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ja.m.meetme.com
 0.0.0.0 ja.swarmapp.com
 0.0.0.0 ja.www.meetme.com
+0.0.0.0 jaguar-prod.snapchat.com
 0.0.0.0 javascript.internet.org
 0.0.0.0 jawabarat.internet.org
 0.0.0.0 jb-47.reddit.com
@@ -3113,6 +3199,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 jp.pinterest.com
 0.0.0.0 jp.twimg.com
 0.0.0.0 jp.weibo.com
+0.0.0.0 jsb-va.tiktokv.com
 0.0.0.0 jss.medium.com
 0.0.0.0 jv.datememe.com
 0.0.0.0 jw-ap.i.org
@@ -3163,6 +3250,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 lads.myspace.com
 0.0.0.0 lan-o.line.me
 0.0.0.0 lan.line.me
+0.0.0.0 lan.sdk.linkedin.com
 0.0.0.0 lan3rd-o.line.me
 0.0.0.0 lan3rd.line.me
 0.0.0.0 landmarkgroup.m.facebook.com
@@ -3186,11 +3274,14 @@ ff02::3 ip6-allhosts
 0.0.0.0 legal.twitter.com
 0.0.0.0 legox.yy.com
 0.0.0.0 legs.reddit.com
+0.0.0.0 lens.games.snapchat.com
+0.0.0.0 lens.snapchat.com
 0.0.0.0 lensstudio.snapchat.com
 0.0.0.0 lesbian-dating.meetup.com
 0.0.0.0 lesbians-over-40.meetup.com
 0.0.0.0 lessbuttons.com
 0.0.0.0 lex-us-west-2.periscope.tv
+0.0.0.0 lf1-ttcdn-tos.pstatp.com
 0.0.0.0 lghnjpm.i.org
 0.0.0.0 lgmob.yy.com
 0.0.0.0 lgn.yy.com
@@ -3204,6 +3295,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 lifg.linkedin.com
 0.0.0.0 lightstep.medium.com
 0.0.0.0 likebtn.com
+0.0.0.0 likee.video
 0.0.0.0 likhar.i.org
 0.0.0.0 limg2.ask.fm
 0.0.0.0 limg3.ask.fm
@@ -3214,6 +3306,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 link-stg.ask.fm
 0.0.0.0 link.ask.fm
 0.0.0.0 link.medium.com
+0.0.0.0 link.snapchat.com
 0.0.0.0 link.staging.ask.fm
 0.0.0.0 linkedin.com
 0.0.0.0 linkedinforgood.linkedin.com
@@ -3253,11 +3346,17 @@ ff02::3 ip6-allhosts
 0.0.0.0 locp-ir.aws.viber.com
 0.0.0.0 locp-ir.viber.com
 0.0.0.0 locp-sg.aws.viber.com
+0.0.0.0 log-va.tiktokv.com
+0.0.0.0 log-va.tiktokv.com.edgekey.net
 0.0.0.0 log.musical.ly
 0.0.0.0 log.myspace.com
 0.0.0.0 log.pinterest.com
 0.0.0.0 log.quora.com
 0.0.0.0 log.tbs.qq.com
+0.0.0.0 log.tiktokv.com
+0.0.0.0 log.tiktokv.com.edgesuite.net
+0.0.0.0 log16-normal-c-useast1a.tiktokv.com
+0.0.0.0 log16-normal-c-useast2a.tiktokv.com
 0.0.0.0 logger.instagram.com
 0.0.0.0 login.facebook.com
 0.0.0.0 login.internet.org
@@ -3277,6 +3376,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 lp.i.org
 0.0.0.0 lp.viber.com
 0.0.0.0 lpch.internet.org
+0.0.0.0 lt-lt.facebook.com
 0.0.0.0 lt-lt.freebasics.com
 0.0.0.0 lu.linkedin.com
 0.0.0.0 lushglobal.slack.com
@@ -3407,36 +3507,63 @@ ff02::3 ip6-allhosts
 0.0.0.0 mbasic.internet.org
 0.0.0.0 mc.qzone.qq.com
 0.0.0.0 mc1.test.renren.com
+0.0.0.0 mcs-sg.tiktokv.com
+0.0.0.0 mcs-va-useast2a.tiktokv.com
+0.0.0.0 mcs-va.tiktokv.com
 0.0.0.0 mdp.pinterest.com
 0.0.0.0 mdw-com.0.freebasics.com
 0.0.0.0 me.linkedin.com
 0.0.0.0 me.telegram.org
+0.0.0.0 media-akam.licdn.com
+0.0.0.0 media-ams2-1.cdn.whatsapp.net
 0.0.0.0 media-ams3-1.cdn.whatsapp.net
+0.0.0.0 media-ams4-1.cdn.whatsapp.net
 0.0.0.0 media-amt2-1.cdn.whatsapp.net
 0.0.0.0 media-arn2-1.cdn.whatsapp.net
+0.0.0.0 media-atl3-1.cdn.whatsapp.net
 0.0.0.0 media-ber1-1.cdn.whatsapp.net
+0.0.0.0 media-bog2-1.cdn.whatsapp.net
 0.0.0.0 media-bru2-1.cdn.whatsapp.net
 0.0.0.0 media-cache-ec0.pinterest.com
 0.0.0.0 media-cache-ec1.pinterest.com
 0.0.0.0 media-cdt1-1.cdn.whatsapp.net
 0.0.0.0 media-dfw5-1.cdn.whatsapp.net
+0.0.0.0 media-dfw5-2.cdn.whatsapp.net
 0.0.0.0 media-direct.cdn.viber.com
+0.0.0.0 media-dus1-1.cdn.whatsapp.net
+0.0.0.0 media-ecst.licdn.com
+0.0.0.0 media-exp1.licdn.com
+0.0.0.0 media-exp3.licdn.com
 0.0.0.0 media-files.aws.viber.com
+0.0.0.0 media-fra3-1.cdn.whatsapp.net
+0.0.0.0 media-fra3-2.cdn.whatsapp.net
+0.0.0.0 media-fra5-1.cdn.whatsapp.net
 0.0.0.0 media-frt3-1.cdn.whatsapp.net
 0.0.0.0 media-frt3-2.cdn.whatsapp.net
 0.0.0.0 media-frx5-1.cdn.whatsapp.net
 0.0.0.0 media-iad3-1.cdn.whatsapp.net
+0.0.0.0 media-iad3-2.cdn.whatsapp.net
 0.0.0.0 media-lax3-1.cdn.whatsapp.net
 0.0.0.0 media-lax3-2.cdn.whatsapp.net
 0.0.0.0 media-lga3-1.cdn.whatsapp.net
+0.0.0.0 media-lga3-2.cdn.whatsapp.net
 0.0.0.0 media-lhr3-1.cdn.whatsapp.net
+0.0.0.0 media-lhr6-1.cdn.whatsapp.net
+0.0.0.0 media-lhr6-2.cdn.whatsapp.net
+0.0.0.0 media-lhr8-1.cdn.whatsapp.net
+0.0.0.0 media-lhr8-2.cdn.whatsapp.net
 0.0.0.0 media-lht6-1.cdn.whatsapp.net
 0.0.0.0 media-mad1-1.cdn.whatsapp.net
 0.0.0.0 media-mia3-1.cdn.whatsapp.net
+0.0.0.0 media-mia3-2.cdn.whatsapp.net
 0.0.0.0 media-mxp1-1.cdn.whatsapp.net
+0.0.0.0 media-ord5-1.cdn.whatsapp.net
+0.0.0.0 media-ord5-2.cdn.whatsapp.net
 0.0.0.0 media-ort2-1.cdn.whatsapp.net
 0.0.0.0 media-ort2-2.cdn.whatsapp.net
 0.0.0.0 media-otp1-1.cdn.whatsapp.net
+0.0.0.0 media-qro1-1.cdn.whatsapp.net
+0.0.0.0 media-qro1-2.cdn.whatsapp.net
 0.0.0.0 media-sea1-1.cdn.whatsapp.net
 0.0.0.0 media-server-142-93-132-235.media.kik.com
 0.0.0.0 media-server-162-243-140-114.media.kik.com
@@ -3451,6 +3578,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 media-sof1-1.cdn.whatsapp.net
 0.0.0.0 media-vie1-1.cdn.whatsapp.net
 0.0.0.0 media-waw1-1.cdn.whatsapp.net
+0.0.0.0 media-xsp1-1.cdn.whatsapp.net
 0.0.0.0 media-yyz1-1-cdn.whatsapp.net
 0.0.0.0 media.api.aws.viber.com
 0.0.0.0 media.api.eu.aws.viber.com
@@ -3512,6 +3640,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 men-and-women-golf.meetup.com
 0.0.0.0 mentor.linkedin.com
 0.0.0.0 merch.discordapp.com
+0.0.0.0 merchantpool1.linkedin.com
 0.0.0.0 message.myspace.com
 0.0.0.0 message.tieba.baidu.com
 0.0.0.0 messages-facebook.com
@@ -3531,11 +3660,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 mia22.badoo.com
 0.0.0.0 miami-dade.meetup.com
 0.0.0.0 microsoft.m.facebook.com
+0.0.0.0 mid4.linkedin.com
 0.0.0.0 mietra-de.m.facebook.com
 0.0.0.0 mimosa.qa.snapfish.com
 0.0.0.0 minghu.i.org
 0.0.0.0 miro.medium.com
 0.0.0.0 miroglio.m.facebook.com
+0.0.0.0 mix.linkedin.com
 0.0.0.0 mixpanelproxy.kik.com
 0.0.0.0 mkbi.slack.com
 0.0.0.0 mkgandh.i.org
@@ -3554,6 +3685,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 mmi701.whatsapp.net
 0.0.0.0 mmi731.whatsapp.net
 0.0.0.0 mms.whatsapp.net
+0.0.0.0 mmx-ds.cdn.whatsapp.net
 0.0.0.0 mo.indosat.com.internet.org
 0.0.0.0 mobi.freebasics.com
 0.0.0.0 mobile-blog.line.me
@@ -3585,8 +3717,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 moments-photos.gotinder.com
 0.0.0.0 moms-of-infants-toddlers.meetup.com
 0.0.0.0 mon-va.byteoversea.com
+0.0.0.0 mon-va.tiktokv.com
+0.0.0.0 mon-va.tiktokv.com.edgesuite.net
 0.0.0.0 mon.byteoversea.com
 0.0.0.0 mon.musical.ly
+0.0.0.0 mon.tiktokv.com
+0.0.0.0 mon.tiktokv.com.edgesuite.net
 0.0.0.0 montedeipasch.i.org
 0.0.0.0 moonangel803.skyrock.com
 0.0.0.0 mortrineo.slack.com
@@ -3604,6 +3740,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 mqaeu.badoo.com
 0.0.0.0 mqaus.badoo.com
 0.0.0.0 mqtt-ig-p4.facebook.com
+0.0.0.0 mqtt-mini.c10r.facebook.com
 0.0.0.0 mqtt-mini.facebook.com
 0.0.0.0 mqtt-p4.facebook.com
 0.0.0.0 mqtt.c10r.facebook.com
@@ -3629,6 +3766,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 mtrace.qq.com
 0.0.0.0 mus1.badoo.com
 0.0.0.0 muscdn.com
+0.0.0.0 musemuse.cn
 0.0.0.0 music-jp-coupon.line.me
 0.0.0.0 music-mag.line.me
 0.0.0.0 music.line.me
@@ -3644,6 +3782,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 mux.twitter.com
 0.0.0.0 mv.qzone.qq.com
 0.0.0.0 mvd.plus.google.com
+0.0.0.0 mvm.snapchat.com
 0.0.0.0 mx.bizsugar.com
 0.0.0.0 mx.freebasics.com
 0.0.0.0 mx.linkedin.com
@@ -3841,6 +3980,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 nr.linkedin.com
 0.0.0.0 nradiomaria.internet.org
 0.0.0.0 nread-worldreader-org.0.internet.org
+0.0.0.0 ns.facebook.com
 0.0.0.0 ns.internet.org
 0.0.0.0 ns1.facebook.com
 0.0.0.0 ns1.linkedin.com
@@ -4030,22 +4170,43 @@ ff02::3 ip6-allhosts
 0.0.0.0 overseacomm.wechat.com
 0.0.0.0 owa.internet.org
 0.0.0.0 ox-d.weheartit.com
+0.0.0.0 p-upload.facebook.com
 0.0.0.0 p.badoo.com
 0.0.0.0 p.facebook.com
 0.0.0.0 p.freebasics.com
 0.0.0.0 p.internet.org
 0.0.0.0 p.twimg.com
 0.0.0.0 p.weibo.com
+0.0.0.0 p1-tt-ipv6.byteimg.com
+0.0.0.0 p1-tt.byteimg.com
 0.0.0.0 p1.qzone.qq.com
+0.0.0.0 p16-ad-sg.ibyteimg.com
+0.0.0.0 p16-pu-sign-ie.tiktokcdn-eu.com
+0.0.0.0 p16-sign-sg.tiktokcdn.com
+0.0.0.0 p16-sign-va.tiktokcdn.com
+0.0.0.0 p16-sign.tiktokcdn-us.com
+0.0.0.0 p16-tiktok-sg.ibyteimg.com
+0.0.0.0 p16-tiktok-sign-va-h2.ibyteimg.com
+0.0.0.0 p16-tiktok-va-h2.ibyteimg.com
+0.0.0.0 p16-tiktok-va.ibyteimg.com
 0.0.0.0 p16-tiktokcdn-com.akamaized.net
+0.0.0.0 p16-va-tiktok.ibyteimg.com
 0.0.0.0 p16.hypstarcdn.com
+0.0.0.0 p16.tiktokcdn-us.com
+0.0.0.0 p19-pu-ie.tiktokcdn-eu.com
+0.0.0.0 p26-tt.byteimg.com
 0.0.0.0 p28.badoo.com
+0.0.0.0 p3-tt-ipv6.byteimg.com
 0.0.0.0 p63.badoo.com
+0.0.0.0 p77-va.tiktokcdn.com
+0.0.0.0 p77-webcast.tiktokcdn.com
+0.0.0.0 p9-tt.byteimg.com
 0.0.0.0 pabotform.viber.com
 0.0.0.0 pacific.facebook.com
 0.0.0.0 page.line.me
 0.0.0.0 page.renren.com
 0.0.0.0 page.yy.com
+0.0.0.0 pages.facebook.com
 0.0.0.0 pagp.gotinder.com
 0.0.0.0 pai.ask.fm
 0.0.0.0 pai.renren.com
@@ -4069,6 +4230,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 passport.weibo.com
 0.0.0.0 pattinson-stewart-forum.skyrock.com
 0.0.0.0 pax.discordapp.com
+0.0.0.0 pay.facebook.com
 0.0.0.0 pay.line.me
 0.0.0.0 pay.reddit.com
 0.0.0.0 pay.renren.com
@@ -4105,16 +4267,22 @@ ff02::3 ip6-allhosts
 0.0.0.0 photoreview.gotinder.com
 0.0.0.0 photos-a-ord.xx.fbcdn.net
 0.0.0.0 photos-a.ak.fbcdn.net
+0.0.0.0 photos-a.ak.instagram.com
 0.0.0.0 photos-a.xx.fbcdn.net
 0.0.0.0 photos-b-ord.xx.fbcdn.net
 0.0.0.0 photos-b.ak.fbcdn.net
+0.0.0.0 photos-b.ak.instagram.com
 0.0.0.0 photos-b.xx.fbcdn.net
 0.0.0.0 photos-c.ak.fbcdn.net
 0.0.0.0 photos-d.ak.fbcdn.net
+0.0.0.0 photos-d.ak.instagram.com
 0.0.0.0 photos-e.ak.fbcdn.net
+0.0.0.0 photos-e.ak.instagram.com
 0.0.0.0 photos-f.ak.fbcdn.net
+0.0.0.0 photos-f.ak.instagram.com
 0.0.0.0 photos-g.ak.fbcdn.net
 0.0.0.0 photos-h.ak.fbcdn.net
+0.0.0.0 photos-h.ak.instagram.com
 0.0.0.0 photos-snc1.fbcdn.net
 0.0.0.0 photos.meetme.com
 0.0.0.0 photos.tagged.com
@@ -4175,6 +4343,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 pl.pinterest.com
 0.0.0.0 place.weibo.com
 0.0.0.0 places-manager-api.snapchat.com
+0.0.0.0 platform-akam.linkedin.com
+0.0.0.0 platform-azur.linkedin.com
+0.0.0.0 platform-ecst.linkedin.com
 0.0.0.0 platform.cdninstagram.com
 0.0.0.0 platform.cf.kik.com
 0.0.0.0 platform.foursquare.com
@@ -4184,6 +4355,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 platform.meetme.com
 0.0.0.0 platform.tumblr.com
 0.0.0.0 platform.twitter.com
+0.0.0.0 platform.twitter.map.fastly.net
 0.0.0.0 play.line.me
 0.0.0.0 play.snapchat.com
 0.0.0.0 playzone2.qzone.qq.com
@@ -4202,6 +4374,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 polls.linkedin.com
 0.0.0.0 pomoc.linkedin.com
 0.0.0.0 pon-zi-generation.skyrock.com
+0.0.0.0 ponf.linkedin.com
 0.0.0.0 pool.static.flickr.com
 0.0.0.0 pop-efr5.perf.linkedin.com
 0.0.0.0 pop-ehk1.perf.linkedin.com
@@ -4241,6 +4414,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ppg.yy.com
 0.0.0.0 pps.whatsapp.net
 0.0.0.0 pr.linkedin.com
+0.0.0.0 premium-stories.snapchat.com
 0.0.0.0 premium.linkedin.com
 0.0.0.0 preprod.instagram.com
 0.0.0.0 preschool-playgroup.meetup.com
@@ -4251,6 +4425,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 printer.discordapp.com
 0.0.0.0 prius.meetup.com
 0.0.0.0 privacy.reddit.com
+0.0.0.0 pro-accounts.snapchat.com
+0.0.0.0 pro-stories.snapchat.com
+0.0.0.0 pro.twitter.com
 0.0.0.0 probe.twitter.com
 0.0.0.0 prod-assets.periscope.tv
 0.0.0.0 prod-chatman-ancillary-ap-northeast-1.periscope.tv
@@ -4352,6 +4529,22 @@ ff02::3 ip6-allhosts
 0.0.0.0 public.renren.com
 0.0.0.0 publish.twitter.com
 0.0.0.0 publishers.medium.com
+0.0.0.0 pull-f3-hs.pstatp.com
+0.0.0.0 pull-f5-hs.flive.pstatp.com
+0.0.0.0 pull-f5-hs.pstatp.com
+0.0.0.0 pull-f5-mus.pstatp.com
+0.0.0.0 pull-flv-f1-hs.pstatp.com
+0.0.0.0 pull-flv-f6-hs.pstatp.com
+0.0.0.0 pull-flv-l1-hs.pstatp.com
+0.0.0.0 pull-flv-l1-mus.pstatp.com
+0.0.0.0 pull-flv-l6-hs.pstatp.com
+0.0.0.0 pull-hls-l1-mus.pstatp.com
+0.0.0.0 pull-l3-hs.pstatp.com
+0.0.0.0 pull-rtmp-f1-hs.pstatp.com
+0.0.0.0 pull-rtmp-f6-hs.pstatp.com
+0.0.0.0 pull-rtmp-l1-hs.pstatp.com
+0.0.0.0 pull-rtmp-l1-mus.pstatp.com
+0.0.0.0 pull-rtmp-l6-hs.pstatp.com
 0.0.0.0 pulse.twitter.com
 0.0.0.0 purchasing.linkedin.com
 0.0.0.0 push.tagged.com
@@ -4382,6 +4575,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 qu.reddit.com
 0.0.0.0 quartz-du-forum.skyrock.com
 0.0.0.0 queuev4.vk.com
+0.0.0.0 quic-tiktok-core-proxy-i18n-gcpva.byteoversea.net
+0.0.0.0 quic-tiktok-proxy-i18n-gcpva.byteoversea.net
 0.0.0.0 qun.qzone.qq.com
 0.0.0.0 quora.com
 0.0.0.0 qwerxtkqnmbcjjymg.i.org
@@ -4473,6 +4668,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 rt.i.org
 0.0.0.0 rtb-us-west.linkedin.com
 0.0.0.0 rtlog.musical.ly
+0.0.0.0 rtlog.tiktokv.com
 0.0.0.0 ru-ru.facebook.com
 0.0.0.0 ru.api.meetme.com
 0.0.0.0 ru.datememe.com
@@ -4521,6 +4717,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 s1.yy.com
 0.0.0.0 s10.photo.store.qq.com
 0.0.0.0 s16.tiktokcdn.com
+0.0.0.0 s20.tiktokcdn.com
 0.0.0.0 s4w.cdn.skype.com
 0.0.0.0 s5.photo.store.qq.com
 0.0.0.0 s76.d.renren.com
@@ -4612,6 +4809,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 scontent-a.xx.fbcdn.net
 0.0.0.0 scontent-ams.cdninstagram.com
 0.0.0.0 scontent-ams.xx.fbcdn.net
+0.0.0.0 scontent-ams2-1.cdninstagram.com
 0.0.0.0 scontent-ams3-1.cdninstagram.com
 0.0.0.0 scontent-ams4-1.cdninstagram.com
 0.0.0.0 scontent-amt2-1.cdninstagram.com
@@ -4623,6 +4821,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 scontent-atl.cdninstagram.com
 0.0.0.0 scontent-atl.xx.fbcdn.net
 0.0.0.0 scontent-atl3-1.cdninstagram.com
+0.0.0.0 scontent-atl3-2.cdninstagram.com
 0.0.0.0 scontent-b-ams.cdninstagram.com
 0.0.0.0 scontent-b-ams.xx.fbcdn.net
 0.0.0.0 scontent-b-amt.cdninstagram.com
@@ -4688,6 +4887,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 scontent-bom1-1.cdninstagram.com
 0.0.0.0 scontent-bom1-1.xx.fbcdn.net
 0.0.0.0 scontent-bos3-1.cdninstagram.com
+0.0.0.0 scontent-bos5-1.cdninstagram.com
 0.0.0.0 scontent-bru.cdninstagram.com
 0.0.0.0 scontent-bru2-1.cdninstagram.com
 0.0.0.0 scontent-c.xx.fbcdn.net
@@ -4696,6 +4896,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 scontent-cdg.xx.fbcdn.net
 0.0.0.0 scontent-cdg2-1.cdninstagram.com
 0.0.0.0 scontent-cdg2-1.xx.fbcdn.net
+0.0.0.0 scontent-cdg4-1.cdninstagram.com
+0.0.0.0 scontent-cdg4-2.cdninstagram.com
+0.0.0.0 scontent-cdg4-3.cdninstagram.com
 0.0.0.0 scontent-cdt.cdninstagram.com
 0.0.0.0 scontent-cdt1-1.cdninstagram.com
 0.0.0.0 scontent-cdt1-1.xx.fbcdn.net
@@ -4704,6 +4907,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 scontent-cph2-1.cdninstagram.com
 0.0.0.0 scontent-d.xx.fbcdn.net
 0.0.0.0 scontent-del1-1.cdninstagram.com
+0.0.0.0 scontent-den2-1.cdninstagram.com
 0.0.0.0 scontent-den4-1.cdninstagram.com
 0.0.0.0 scontent-dft4-1.cdninstagram.com
 0.0.0.0 scontent-dft4-2.cdninstagram.com
@@ -4725,12 +4929,15 @@ ff02::3 ip6-allhosts
 0.0.0.0 scontent-for1-1.cdninstagram.com
 0.0.0.0 scontent-fra.xx.fbcdn.net
 0.0.0.0 scontent-fra3-1.cdninstagram.com
+0.0.0.0 scontent-fra3-2.cdninstagram.com
+0.0.0.0 scontent-fra5-1.cdninstagram.com
+0.0.0.0 scontent-fra5-2.cdninstagram.com
 0.0.0.0 scontent-frt.cdninstagram.com
 0.0.0.0 scontent-frt3-1.cdninstagram.com
 0.0.0.0 scontent-frt3-1.xx.fbcdn.net
 0.0.0.0 scontent-frt3-2.cdninstagram.com
 0.0.0.0 scontent-frt3-2.xx.fbcdn.net
-0.0.0.0 scontent-frx.cdninstagram.com	
+0.0.0.0 scontent-frx.cdninstagram.com
 0.0.0.0 scontent-frx5-1.cdninstagram.com
 0.0.0.0 scontent-frx5-1.xx.fbcdn.net
 0.0.0.0 scontent-gig2-1.cdninstagram.com
@@ -4749,9 +4956,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 scontent-hkg3-2.cdninstagram.com
 0.0.0.0 scontent-hkg3-2.xx.fbcdn.net
 0.0.0.0 scontent-hkt1-1.cdninstagram.com
+0.0.0.0 scontent-hou1-1.cdninstagram.com
 0.0.0.0 scontent-iad.cdninstagram.com
 0.0.0.0 scontent-iad3-1.cdninstagram.com
 0.0.0.0 scontent-iad3-1.xx.fbcdn.net
+0.0.0.0 scontent-iad3-2.cdninstagram.com
 0.0.0.0 scontent-icn1-1.cdninstagram.com
 0.0.0.0 scontent-icn1-1.xx.fbcdn.net
 0.0.0.0 scontent-itm1-1.cdninstagram.com
@@ -4769,11 +4978,15 @@ ff02::3 ip6-allhosts
 0.0.0.0 scontent-lga.xx.fbcdn.net
 0.0.0.0 scontent-lga3-1.cdninstagram.com
 0.0.0.0 scontent-lga3-1.xx.fbcdn.net
+0.0.0.0 scontent-lga3-2.cdninstagram.com
 0.0.0.0 scontent-lhr.cdninstagram.com
 0.0.0.0 scontent-lhr.xx.fbcdn.net
 0.0.0.0 scontent-lhr3-1.cdninstagram.com
 0.0.0.0 scontent-lhr3-1.xx.fbcdn.net
+0.0.0.0 scontent-lhr6-1.cdninstagram.com
+0.0.0.0 scontent-lhr6-2.cdninstagram.com
 0.0.0.0 scontent-lhr8-1.cdninstagram.com
+0.0.0.0 scontent-lhr8-2.cdninstagram.com
 0.0.0.0 scontent-lht6-1.cdninstagram.com
 0.0.0.0 scontent-lht6-1.xx.fbcdn.net
 0.0.0.0 scontent-lim1-1.cdninstagram.com
@@ -4803,6 +5016,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 scontent-ord.cdninstagram.com
 0.0.0.0 scontent-ord.xx.fbcdn.net
 0.0.0.0 scontent-ord1-1.cdninstagram.com
+0.0.0.0 scontent-ord5-1.cdninstagram.com
+0.0.0.0 scontent-ord5-2.cdninstagram.com
 0.0.0.0 scontent-ort2-1.cdninstagram.com
 0.0.0.0 scontent-ort2-2.cdninstagram.com
 0.0.0.0 scontent-otp1-1.cdninstagram.com
@@ -4991,9 +5206,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 scontent.fwbw1-1.fna.fbcdn.net
 0.0.0.0 scontent.fybz2-2.fna.fbcdn.net
 0.0.0.0 scontent.fymy1-2.fna.fbcdn.net
+0.0.0.0 scontent.whatsapp.net
 0.0.0.0 scontent.xx.fbcdn.net
 0.0.0.0 scotiabank.m.facebook.com
 0.0.0.0 screen.weibo.com
+0.0.0.0 sdfp-va.tiktokv.com
 0.0.0.0 sdk.e.qq.com
 0.0.0.0 sdkapp.uve.weibo.com
 0.0.0.0 sdkreport.gslb.yy.com
@@ -5004,6 +5221,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 search.map.qq.com
 0.0.0.0 search.myspace.com
 0.0.0.0 search.twitter.com
+0.0.0.0 search16-normal-useast2a.tiktokv.com
 0.0.0.0 search2.twitter.com
 0.0.0.0 searchresults.myspace.com
 0.0.0.0 searchservice.myspace.com
@@ -5046,6 +5264,14 @@ ff02::3 ip6-allhosts
 0.0.0.0 sexy-singles.meetup.com
 0.0.0.0 sf-tb-sg.ibytedtos.com
 0.0.0.0 sf1-hrc20.hob3.sfo1.snapfish.com
+0.0.0.0 sf1-ttcdn-tos.pstatp.com
+0.0.0.0 sf16-ttcdn-tos.ipstatp.com
+0.0.0.0 sf53-sg.tiktokcdn.com
+0.0.0.0 sf53-va.tiktokcdn.com
+0.0.0.0 sf6-ttcdn-tos.pstatp.com
+0.0.0.0 sf77-sg.tiktokcdn.com
+0.0.0.0 sf77-va.tiktokcdn.com
+0.0.0.0 sf77-webcast.tiktokcdn.com
 0.0.0.0 sfint1.qa.snapfish.com
 0.0.0.0 sfint4.qa.snapfish.com
 0.0.0.0 sfmir1.qa.snapfish.com
@@ -5058,6 +5284,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 sg.linkedin.com
 0.0.0.0 sg.weibo.com
 0.0.0.0 sgali3.l.byteoversea.net
+0.0.0.0 sgsnssdk.com
 0.0.0.0 sgzg.gamebbs.renren.com
 0.0.0.0 sh.taotao.qq.com
 0.0.0.0 shaildhar-expresswifi-com.shaildhar.in.expresswifi.com
@@ -5072,6 +5299,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 share.media.aws.viber.com
 0.0.0.0 share.pluso.ru
 0.0.0.0 share.renren.com
+0.0.0.0 share.snapchat.com
 0.0.0.0 share.viber.com
 0.0.0.0 share.weheartit.com
 0.0.0.0 share.yandex.net
@@ -5089,6 +5317,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 shorte.st
 0.0.0.0 shot.badoo.com
 0.0.0.0 shouyou.renren.com
+0.0.0.0 shows.snapchat.com
 0.0.0.0 si.linkedin.com
 0.0.0.0 signer.periscope.tv
 0.0.0.0 signin.lms.linkedin.com
@@ -5109,9 +5338,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 sk.pinterest.com
 0.0.0.0 sketch.kik.com
 0.0.0.0 ski.m.facebook.com
+0.0.0.0 sks.snapchat.com
 0.0.0.0 skyeng.slack.com
 0.0.0.0 skype.com
 0.0.0.0 skyrock.com
+0.0.0.0 sl-si.facebook.com
 0.0.0.0 slack.com
 0.0.0.0 slashdot.org
 0.0.0.0 smallbiz.meetup.com
@@ -5129,11 +5360,15 @@ ff02::3 ip6-allhosts
 0.0.0.0 smtp.pop.pop.m.vk.com
 0.0.0.0 smtp.pop.pop.vk.com
 0.0.0.0 smusic.app.wechat.com
+0.0.0.0 snap.licdn.com
+0.0.0.0 snapchat-com
 0.0.0.0 snapchat-payments-gateway.snapchat.com
+0.0.0.0 snapchat.com
 0.0.0.0 snapfish.com
 0.0.0.0 snappublisher.snapchat.com
 0.0.0.0 snaptu-d-shv-05-frc3.facebook.com
 0.0.0.0 snaptu-d-shv-10-frc1.facebook.com
+0.0.0.0 snaptu-d.facebook.com
 0.0.0.0 snaptu-mini.facebook.com
 0.0.0.0 snaptu-p1.facebook.com
 0.0.0.0 snaptu-p2.facebook.com
@@ -5255,6 +5490,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 staff.tumblr.com
 0.0.0.0 stage.internet.org
 0.0.0.0 staging-commerce.pinterest.com
+0.0.0.0 staging-us-east1-aws.api.snapchat.com
 0.0.0.0 staging.app-analytics.snapchat.com
 0.0.0.0 staging.internet.org
 0.0.0.0 staging.joinclubhouse.com
@@ -5268,9 +5504,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 stat.weheartit.com
 0.0.0.0 stat2.web.yy.com
 0.0.0.0 static-ak.facebook.com
+0.0.0.0 static-akam.licdn.com
+0.0.0.0 static-azur.licdn.com
+0.0.0.0 static-ecst.licdn.com
 0.0.0.0 static-eu2.badoo.com
 0.0.0.0 static-eu3.badoo.com
 0.0.0.0 static-eu4.badoo.com
+0.0.0.0 static-od.licdn.com
 0.0.0.0 static.0.facebook.com
 0.0.0.0 static.addtoany.com
 0.0.0.0 static.ads-twitter.com
@@ -5296,6 +5536,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 static.medium.com
 0.0.0.0 static.reddit.com
 0.0.0.0 static.redditgifts.com
+0.0.0.0 static.snapchat.com
 0.0.0.0 static.snapfish.com
 0.0.0.0 static.tagged.com
 0.0.0.0 static.thefacebook.com
@@ -5328,6 +5569,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 store.snapfish.com
 0.0.0.0 stories.twitter.com
 0.0.0.0 stormberg.m.facebook.com
+0.0.0.0 story.snapchat.com
 0.0.0.0 strapi.reddit.com
 0.0.0.0 stream.meetme.com
 0.0.0.0 stream.meetup.com
@@ -5358,6 +5600,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 support.internet.org
 0.0.0.0 support.musical.ly
 0.0.0.0 support.pinterest.com
+0.0.0.0 support.snapchat.com
 0.0.0.0 support.snapfish.com
 0.0.0.0 support.tagged.com
 0.0.0.0 support.twitter.com
@@ -5386,9 +5629,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 syyy.yy.com
 0.0.0.0 syzs.qq.com
 0.0.0.0 t.co
+0.0.0.0 t.snapchat.com
 0.0.0.0 t.snapfish.com
 0.0.0.0 t.vk.com
 0.0.0.0 ta.linkedin.com
+0.0.0.0 tableau.thefacebook.com
 0.0.0.0 taboolasyndication.com
 0.0.0.0 tag-gateway-use1.meetme.com
 0.0.0.0 tagged.com
@@ -5478,6 +5723,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 tempur.i.org
 0.0.0.0 terms.line.me
 0.0.0.0 terms2.line.me
+0.0.0.0 test-ads.tiktok.com
 0.0.0.0 test.imo.im
 0.0.0.0 testdrive.kik.com
 0.0.0.0 testflight.joinclubhouse.com
@@ -5500,9 +5746,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 the-place-of-quotations.skyrock.com
 0.0.0.0 the.internet.org
 0.0.0.0 the9th.slack.com
+0.0.0.0 thefacebook.com
 0.0.0.0 thefullwik.i.org
 0.0.0.0 theia.i.org
 0.0.0.0 there.plus.google.com
+0.0.0.0 threads.net
 0.0.0.0 tiasdk.app.wechat.com
 0.0.0.0 tibbdamour.skyrock.com
 0.0.0.0 tieba.baidu.com
@@ -5512,11 +5760,43 @@ ff02::3 ip6-allhosts
 0.0.0.0 tikona.in.xwf.internet.org
 0.0.0.0 tikonaqa.in.expresswifi.com
 0.0.0.0 tikonaqa.in.xwf.internet.org
+0.0.0.0 tiktok-lb-alisg.byteoversea.net
+0.0.0.0 tiktok-lb-maliva.byteoversea.net
+0.0.0.0 tiktok-lb-texas.useast5.byteoversea.net.byteigtm.com
+0.0.0.0 tiktok-platform-lb-alisg.byteoversea.net
+0.0.0.0 tiktok-platform-lb-maliva.byteoversea.net
 0.0.0.0 tiktok.com
+0.0.0.0 tiktok.in
 0.0.0.0 tiktok.org
 0.0.0.0 tiktokcdn-com.akamaized.net
+0.0.0.0 tiktokcdn-eu.com
+0.0.0.0 tiktokcdn-eu.net
+0.0.0.0 tiktokcdn-in.com
+0.0.0.0 tiktokcdn-us.com
+0.0.0.0 tiktokcdn-us.com.atomile.com
+0.0.0.0 tiktokcdn-us.com.c.worldfcdn2.com
 0.0.0.0 tiktokcdn.com
+0.0.0.0 tiktokcdn.com.atomile.com
+0.0.0.0 tiktokcdn.com.c.bytefcdn-oversea.com
+0.0.0.0 tiktokcdn.com.c.bytefcdn-ttpeu.com
+0.0.0.0 tiktokcdn.com.c.bytetcdn.com
+0.0.0.0 tiktokcdn.com.c.worldfcdn.com
+0.0.0.0 tiktokcdn.com.qlivecdn.com
+0.0.0.0 tiktokcdn.com.rocket-cdn.com
+0.0.0.0 tiktokcdn.com.tlivepush.com
+0.0.0.0 tiktokd.org
+0.0.0.0 tiktokglobalshop.com
+0.0.0.0 tiktokglobalshopv.com
+0.0.0.0 tiktokmusic.app
+0.0.0.0 tiktokshop.com
+0.0.0.0 tiktokstaticb.com
 0.0.0.0 tiktokv.com
+0.0.0.0 tiktokv.com.c.bytefcdn-oversea.com
+0.0.0.0 tiktokv.com.c.worldfcdn.com
+0.0.0.0 tiktokv.com.c.worldfcdn2.com
+0.0.0.0 tiktokv.eu
+0.0.0.0 tiktokv.us
+0.0.0.0 tiktokw.us
 0.0.0.0 tile.kik.com
 0.0.0.0 timbrasil.m.facebook.com
 0.0.0.0 time.qzone.qq.com
@@ -5533,6 +5813,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 tjkathastaneler.i.org
 0.0.0.0 tl-ph.facebook.com
 0.0.0.0 tl.linkedin.com
+0.0.0.0 tlivecdn.com
 0.0.0.0 tm.linkedin.com
 0.0.0.0 tn.linkedin.com
 0.0.0.0 tn.periscope.tv
@@ -5557,11 +5838,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 tools.3g.qq.com
 0.0.0.0 tools.gotinder.com
 0.0.0.0 top.weibo.com
+0.0.0.0 topic-sticker-vending.snapchat.com
 0.0.0.0 topsy.com
 0.0.0.0 torrentap.i.org
 0.0.0.0 touch.facebook.com
 0.0.0.0 touch.meetme.com
 0.0.0.0 touch.www.linkedin.com
+0.0.0.0 tpop-api.twitter.com
 0.0.0.0 tps.gamebbs.qq.com
 0.0.0.0 tr-tr.facebook.com
 0.0.0.0 tr-tr.freebasics.com
@@ -5577,9 +5860,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 tr.pinterest.com
 0.0.0.0 tr.profile.meetme.com
 0.0.0.0 tr.reddit.com
+0.0.0.0 tr.snapchat.com
 0.0.0.0 tr.ssl.meetme.com
 0.0.0.0 tr.swarmapp.com
 0.0.0.0 tr.www.meetme.com
+0.0.0.0 tr6.snapchat.com
 0.0.0.0 training.linkedin.com
 0.0.0.0 trans.renren.com
 0.0.0.0 translate-dev.whatsapp.com
@@ -5602,6 +5887,14 @@ ff02::3 ip6-allhosts
 0.0.0.0 tsel.freebasics.com
 0.0.0.0 tsel.internet.org
 0.0.0.0 tt.reddit.com
+0.0.0.0 ttapis.com
+0.0.0.0 ttdns2.com
+0.0.0.0 ttlivecdn.com
+0.0.0.0 ttlivecdn.com.c.bytefcdn-oversea.com
+0.0.0.0 ttlivecdn.com.c.worldfcdn.com
+0.0.0.0 ttoversea.net
+0.0.0.0 ttoverseaus.net
+0.0.0.0 ttwstatic.com
 0.0.0.0 tui.weibo.com
 0.0.0.0 tulong.linkedin.com
 0.0.0.0 tumblr.com
@@ -5617,9 +5910,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 tweetdeck.twitter.com
 0.0.0.0 tweetmeme.com
 0.0.0.0 twemoji.twitter.com
+0.0.0.0 twimg.twitter.map.fastly.net
 0.0.0.0 twimg0-0.akamaihd.net
 0.0.0.0 twitbuttons.com
+0.0.0.0 twitter.co
 0.0.0.0 twitter.com
+0.0.0.0 twitter.de
+0.0.0.0 twitter.map.fastly.net
 0.0.0.0 twittercounter.com
 0.0.0.0 twitthis.com
 0.0.0.0 tz-gem-unicore-io.0.freebasics.com
@@ -5636,6 +5933,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 uic.login.skype.com
 0.0.0.0 uiwalumn.i.org
 0.0.0.0 uj2myfjsvf2.posts.106298620457610449826.plus.google.com
+0.0.0.0 uk-ua.facebook.com
 0.0.0.0 uk.linkedin.com
 0.0.0.0 uk.myspace.com
 0.0.0.0 uk.pinterest.com
@@ -5681,7 +5979,15 @@ ff02::3 ip6-allhosts
 0.0.0.0 uretkenakademi.slack.com
 0.0.0.0 urlp.asm.skype.com
 0.0.0.0 us-central1-gcp.api.snapchat.com
+0.0.0.0 us-east-1-bitmoji.api.snapchat.com
 0.0.0.0 us-east-1.dc.ads.linkedin.com
+0.0.0.0 us-east1-aws-acc-test.api.snapchat.com
+0.0.0.0 us-east1-aws-acc.api.snapchat.com
+0.0.0.0 us-east1-aws-cf.api.snapchat.com
+0.0.0.0 us-east1-aws.api.snapchat.com
+0.0.0.0 us-east1-aws.gateway.snapchat.com
+0.0.0.0 us-east4-gcp-ineg.api.snapchat.com
+0.0.0.0 us-east4-gcp.api.snapchat.com
 0.0.0.0 us-en.freebasics.com
 0.0.0.0 us-en.internet.org
 0.0.0.0 us-turn.badoo.com
@@ -5692,6 +5998,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 us.weibo.com
 0.0.0.0 us1.badoo.com
 0.0.0.0 usautoparts.slack.com
+0.0.0.0 usc1-gcp-v61.api.snapchat.com
+0.0.0.0 usc1-gcp-v62.api.snapchat.com
+0.0.0.0 use4-gcp-v4.api.snapchat.com
+0.0.0.0 use4-gcp-v6.api.snapchat.com
 0.0.0.0 user-yijian-preview.yy.com
 0.0.0.0 user.qzone.qq.com
 0.0.0.0 users.qzone.qq.com
@@ -5713,9 +6023,16 @@ ff02::3 ip6-allhosts
 0.0.0.0 v.whatsapp.net
 0.0.0.0 v16-tiktokcdn-com.akamaized.net
 0.0.0.0 v16.musical.ly
+0.0.0.0 v16m.tiktokcdn-eu.com
+0.0.0.0 v19.tiktokcdn.com
 0.0.0.0 v2008.qzone.qq.com
+0.0.0.0 v39.tiktokcdn-eu.com
 0.0.0.0 v4help.facebook.com
 0.0.0.0 v5.ask.fm
+0.0.0.0 v51.tiktokcdn.com
+0.0.0.0 v53.tiktokcdn.com
+0.0.0.0 v58.tiktokcdn-eu.com
+0.0.0.0 v77.tiktokcdn.com
 0.0.0.0 vaneu.vk.com
 0.0.0.0 vdisk.weibo.com
 0.0.0.0 veb.telegram.org
@@ -5723,6 +6040,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 venus-1.web.telegram.org
 0.0.0.0 venus.web.telegram.org
 0.0.0.0 verification-va.byteoversea.com
+0.0.0.0 verification-va.tiktokv.com
 0.0.0.0 verification.twitter.com
 0.0.0.0 verified.weibo.com
 0.0.0.0 vesta-1.web.telegram.org
@@ -5805,6 +6123,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 video.fvit1-1.fna.fbcdn.net
 0.0.0.0 video.tagged.com
 0.0.0.0 video.twitter.com
+0.0.0.0 video.twitter.map.fastly.net
 0.0.0.0 video.wechat.com
 0.0.0.0 video.weibo.com
 0.0.0.0 video.xx.fbcdn.net
@@ -5865,6 +6184,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 w1.internet.org
 0.0.0.0 w1.web.whatsapp.com
 0.0.0.0 w2.web.whatsapp.com
+0.0.0.0 w3-reporting-csp.reddit.com
+0.0.0.0 w3-reporting-nel.reddit.com
+0.0.0.0 w3-reporting.reddit.com
 0.0.0.0 w3.freebasics.com
 0.0.0.0 w3.internet.org
 0.0.0.0 w3.web.whatsapp.com
@@ -5899,17 +6221,22 @@ ff02::3 ip6-allhosts
 0.0.0.0 we.telegram.org
 0.0.0.0 weareher.com
 0.0.0.0 wearentus.slack.com
+0.0.0.0 web-chat-e2ee.facebook.com
+0.0.0.0 web-fallback.facebook.com
 0.0.0.0 web.beta.facebook.com
 0.0.0.0 web.facebook.com
 0.0.0.0 web.im.weibo.com
 0.0.0.0 web.periscope.tv
 0.0.0.0 web.skype.com
+0.0.0.0 web.snapchat.com
 0.0.0.0 web.telegram.org
 0.0.0.0 web.wechat.com
 0.0.0.0 web.whatsapp.com
 0.0.0.0 web1.wechat.com
 0.0.0.0 web2.wechat.com
 0.0.0.0 web5325.internet.org
+0.0.0.0 webattachments.snapchat.com
+0.0.0.0 webcast16-normal-c-useast2a.tiktokv.com
 0.0.0.0 webdav.facebook.com
 0.0.0.0 webde.badoo.com
 0.0.0.0 webdisk.internet.org
@@ -6000,6 +6327,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 whatsapp-cdn-shv-01-vie1.fbcdn.net
 0.0.0.0 whatsapp-cdn-shv-02-sin6.fbcdn.net
 0.0.0.0 whatsapp.com
+0.0.0.0 whatsapp.net
 0.0.0.0 white.instagram.com
 0.0.0.0 white.ish.instagram.com
 0.0.0.0 whm.freebasics.com
@@ -6080,6 +6408,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www-google-co-zm.0.freebasics.com
 0.0.0.0 www-naij-com.0.freebasics.com
 0.0.0.0 www-pinterest-com-edgekey-net.pinterest.com
+0.0.0.0 www-src.linkedin.com
 0.0.0.0 www.0.facebook.com
 0.0.0.0 www.0.freebasics.com
 0.0.0.0 www.0.mx.freebasics.com
@@ -6206,6 +6535,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.salesconnect.linkedin.com
 0.0.0.0 www.skyrock.com
 0.0.0.0 www.smallbusiness.linkedin.com
+0.0.0.0 www.snapchat.com
 0.0.0.0 www.snapfish.com
 0.0.0.0 www.start.internet.org
 0.0.0.0 www.static.ak.connect.facebook.com
@@ -6219,8 +6549,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.tagged.com
 0.0.0.0 www.telegram.org
 0.0.0.0 www.the-dots.com
+0.0.0.0 www.threads.net
 0.0.0.0 www.tieba.baidu.com
 0.0.0.0 www.tiktok.com
+0.0.0.0 www.tiktok.in
 0.0.0.0 www.tumblr.com
 0.0.0.0 www.twitter.com
 0.0.0.0 www.university.linkedin.com
@@ -6241,6 +6573,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.www.vk.com
 0.0.0.0 www.www.ziraat.internet.org
 0.0.0.0 www.wwww.plus.google.com
+0.0.0.0 www.x.com
 0.0.0.0 www.yg4wm58qb.internet.org
 0.0.0.0 www.ynet.co.i.org
 0.0.0.0 www.yy.com
@@ -6295,6 +6628,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www94.imo.im
 0.0.0.0 www97.imo.im
 0.0.0.0 www99.imo.im
+0.0.0.0 wwwfacebook.com
 0.0.0.0 wwwl.whatsapp.com
 0.0.0.0 wwwo.plus.google.com
 0.0.0.0 wwww.facebook.com
@@ -6302,6 +6636,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 wwww.plus.google.com
 0.0.0.0 x-cheetah-girls-3-x.skyrock.com
 0.0.0.0 x-limit-stunt.skyrock.com
+0.0.0.0 x.com
 0.0.0.0 x.facebook.com
 0.0.0.0 x.myspace.com
 0.0.0.0 x.myspacecdn.com
@@ -6332,6 +6667,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 xing-share.com
 0.0.0.0 xkuctmh.i.org
 0.0.0.0 xlog-va.byteoversea.com
+0.0.0.0 xlog-va.tiktokv.com
+0.0.0.0 xlog.tiktokv.com
+0.0.0.0 xlog.tiktokv.com.edgesuite.net
 0.0.0.0 xmpp.odnoklassniki.ru
 0.0.0.0 xn--h1avi.telegram.org
 0.0.0.0 xp.reddit.com
@@ -6472,6 +6810,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 z-m-external.fceb1-1.fna.fbcdn.net
 0.0.0.0 z-m-fbcdn-mini-shv-01-ord1.fbcdn.net
 0.0.0.0 z-m-fbcdn-shv-01-frt3.fbcdn.net
+0.0.0.0 z-m-gateway.facebook.com
 0.0.0.0 z-m-graph.facebook.com
 0.0.0.0 z-m-graph.fbsbx.com
 0.0.0.0 z-m-lookaside.fbsbx.com
@@ -6976,7 +7315,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 z-p42-scontent-waw1-1.cdninstagram.com
 0.0.0.0 z-p42-scontent-yyz1-1.cdninstagram.com
 0.0.0.0 z-p42-scontent.cdninstagram.com
-0.0.0.0 z-p42-static.cdninstagram.com	
+0.0.0.0 z-p42-static.cdninstagram.com
 0.0.0.0 z-p42.graph.instagram.com
 0.0.0.0 z-p42.i.instagram.com
 0.0.0.0 z-p42.maps.instagram.com
